@@ -1,0 +1,23 @@
+﻿SupplierID,SupplierName,Address,Phone,Email,HasDelivery,PickupInStore
+S001,El Olivar Olives Ltd.,"450 San Pedro Rd, Melipilla",+56 9 5511 2233,orders@elolivar.example,Yes,No
+S002,Aceitunera Central SpA,"1220 Longitudinal Hwy, San Fernando",+56 9 5610 8842,ventas@aceituneracentral.example,No,Yes
+S003,San Vicente Grains & Legumes,"780 Freire Ave, San Vicente",+56 9 4422 1188,sales@svgrains.example,No,Yes
+S004,Molino del Valle,"95 Estacion St, Rengo",+56 9 4470 3319,contacto@molinodelvalle.example,Yes,No
+S005,Doña Rosa Pickles,"233 Los Aromos, Rancagua",+56 9 6633 9944,donarosa.pickles@example,Yes,No
+S006,Conservas El Huerto,"410 Membrillar, Rancagua",+56 9 6690 2255,elhuerto.conservas@example,No,Yes
+S007,Curico Chili & Sauces,"Km 178 Route 5 South, Curico",+56 9 7788 1122,chili@curicosauces.example,No,Yes
+S008,Merken del Sur,"67 Caupolican, Temuco",+56 9 7810 4471,ventas@merkendelsur.example,Yes,No
+S009,Valley Spices SpA,"1560 Balmaceda Ave, Rancagua",+56 9 3344 5566,orders@valleyspices.example,Yes,No
+S010,Especias Andinas,"330 Independencia, Santiago",+56 9 3380 1190,andinas.especias@example,Yes,No
+S011,Los Ulmos Apiary,"Santa Elena Farm, Pichidegua",+56 9 8899 0011,apiary@losulmos.example,No,Yes
+S012,Miel Nativa Ltda.,"km 8 Route H-30, Coltauco",+56 9 8850 7723,contacto@mielnativa.example,Yes,No
+S013,Maipo Nuts Ltd.,"Km 22 Melipilla Rd, Buin",+56 9 2211 3344,orders@maiponuts.example,Yes,No
+S014,El Palomo Nuts,"540 Gran Avenida, San Bernardo",+56 9 2260 8891,elpalomo.nuts@example,Yes,No
+S015,Nogal Dryfruits,"78 OHiggins, Los Andes",+56 9 2290 5560,ventas@nogaldry.example,No,Yes
+S016,Semillas del Campo,"150 Carampangue, Rancagua",+56 9 2240 1177,campo.semillas@example,No,Yes
+S017,Molina Artisan Sweets,"340 Yungay St, Molina",+56 9 9900 1122,sweets@molina.example,No,Yes
+S018,Dulces La Estrella,"220 Brasil, Curico",+56 9 9940 6634,laestrella.dulces@example,Yes,No
+S019,San Fernando Dried Goods,"Km 5 Route J-60, San Fernando",+56 9 5566 7788,sales@sfdried.example,Yes,No
+S020,Deshidratados Elqui,"1100 Ruta 5, Vicuña",+56 9 5590 3312,elqui.deshidratados@example,No,Yes
+S021,PackChile Wholesale,"2200 Industrial Park, Maipu",+56 9 3011 5567,orders@packchile.example,Yes,No
+S022,Envases del Pacifico,"88 Portales, Valparaiso",+56 9 3060 2214,ventas@envasespacifico.example,Yes,No

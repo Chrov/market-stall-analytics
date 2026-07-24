@@ -1,0 +1,129 @@
+﻿ProductID,Product,Category,SaleUnit,PriceType,Essential,PeakSeason,CurrentStock,SalePrice_CLP,SalePrice_USD,PurchasePrice_CLP,Margin_CLP,Margin_Pct,Class,SupplierName,LeadTime_Days
+P001,"Olives 120/140 (extra large), brined",Olives,kg,By Weight (kg),Yes,Spring-Summer,High,4000,4.28,2950,1050,0.2625,A,El Olivar Olives Ltd.,3
+P002,"Olives 140/160 (large), brined",Olives,kg,By Weight (kg),Yes,Spring-Summer,Low,3500,3.74,2500,1000,0.2857142857142857,A,El Olivar Olives Ltd.,2
+P003,"Olives 160/180, brined",Olives,kg,By Weight (kg),Yes,Spring-Summer,Medium,3500,3.74,2450,1050,0.3,A,El Olivar Olives Ltd.,3
+P004,"Olives 180/200, brined",Olives,kg,By Weight (kg),No,Spring-Summer,Medium,3000,3.21,2050,950,0.31666666666666665,A,El Olivar Olives Ltd.,1
+P005,"Olives 200/220, brined",Olives,kg,By Weight (kg),Yes,Spring-Summer,High,3000,3.21,2100,900,0.3,A,El Olivar Olives Ltd.,5
+P006,"Olives 220/240, brined",Olives,kg,By Weight (kg),No,Spring-Summer,High,3000,3.21,2200,800,0.26666666666666666,A,El Olivar Olives Ltd.,2
+P007,"Olives 240/260 (small), brined",Olives,kg,By Weight (kg),No,Spring-Summer,High,2500,2.67,1850,650,0.26,A,El Olivar Olives Ltd.,2
+P008,Pitted olives,Olives,kg,By Weight (kg),No,Spring-Summer,Low,3500,3.74,2450,1050,0.3,A,El Olivar Olives Ltd.,3
+P009,Sliced olives (for salads),Olives,kg,By Weight (kg),No,Spring-Summer,Medium,3000,3.21,2150,850,0.2833333333333333,A,El Olivar Olives Ltd.,1
+P010,Cracked green olives with garlic,Olives,kg,By Weight (kg),No,Spring-Summer,Medium,3000,3.21,2100,900,0.3,A,El Olivar Olives Ltd.,1
+P011,"Black olive pate, jar 250g",Olives,jar 250g,By Unit/Package,No,All year,High,3500,3.74,2500,1000,0.2857142857142857,A,El Olivar Olives Ltd.,1
+P012,Cooked mote (hominy wheat),Grains,kg,By Weight (kg),Yes,Spring-Summer,Low,1500,1.6,1150,350,0.23333333333333334,A,San Vicente Grains & Legumes,0
+P013,Dry mote (raw),Grains,kg,By Weight (kg),No,Spring-Summer,Low,1500,1.6,1050,450,0.3,A,San Vicente Grains & Legumes,2
+P014,Premium pearled mote,Grains,kg,By Weight (kg),No,Spring-Summer,High,1500,1.6,1150,350,0.23333333333333334,A,San Vicente Grains & Legumes,5
+P015,Pearl barley,Grains,kg,By Weight (kg),No,All year,High,2000,2.14,1450,550,0.275,A,San Vicente Grains & Legumes,0
+P016,"Mixed pickles, jar 500g",Pickles,jar 500g,By Unit/Package,No,All year,High,3000,3.21,2100,900,0.3,B,Doña Rosa Pickles,0
+P017,"Pickled onions, jar 500g",Pickles,jar 500g,By Unit/Package,No,All year,High,2500,2.67,1800,700,0.28,B,Doña Rosa Pickles,1
+P018,"Pickled cauliflower, jar 500g",Pickles,jar 500g,By Unit/Package,No,All year,Medium,2500,2.67,1750,750,0.3,B,Doña Rosa Pickles,2
+P019,"Pickled gherkins, jar 500g",Pickles,jar 500g,By Unit/Package,No,All year,High,3000,3.21,2050,950,0.31666666666666665,B,Doña Rosa Pickles,5
+P020,"Pickled jalapeños, jar 500g",Pickles,jar 500g,By Unit/Package,No,All year,High,3000,3.21,2100,900,0.3,B,Doña Rosa Pickles,3
+P021,"Ground golden chili (aji de color), bag 100g",Chili,bag 100g,By Unit/Package,Yes,All year,Medium,2000,2.14,1450,550,0.275,B,Curico Chili & Sauces,1
+P022,"Bottled chili sauce, bottle 200ml",Chili,bottle 200ml,By Unit/Package,Yes,All year,High,2000,2.14,1350,650,0.325,C,Curico Chili & Sauces,3
+P023,"Chili paste, bag 250g",Chili,bag 250g,By Unit/Package,No,All year,High,2000,2.14,1400,600,0.3,B,Curico Chili & Sauces,0
+P024,"Chili paste, bottle 200ml",Chili,bottle 200ml,By Unit/Package,No,All year,High,2000,2.14,1350,650,0.325,B,Curico Chili & Sauces,0
+P025,"Sliced green chili, bag 200g",Chili,bag 200g,By Unit/Package,No,Fall-Winter,Medium,1500,1.6,1100,400,0.26666666666666666,B,Curico Chili & Sauces,2
+P026,"Dried cacho de cabra chili, bag 50g",Chili,bag 50g,By Unit/Package,No,Fall-Winter,Medium,1500,1.6,1100,400,0.26666666666666666,B,Curico Chili & Sauces,2
+P027,"Ground panca chili, bag 100g",Chili,bag 100g,By Unit/Package,No,Fall-Winter,High,2000,2.14,1450,550,0.275,A,Curico Chili & Sauces,3
+P028,"Merken (smoked chili), bag 100g",Chili,bag 100g,By Unit/Package,No,Fall-Winter,Medium,2000,2.14,1350,650,0.325,A,Curico Chili & Sauces,3
+P029,"Whole dried red chili, bag 100g",Chili,bag 100g,By Unit/Package,No,Fall-Winter,Medium,2000,2.14,1400,600,0.3,A,Curico Chili & Sauces,1
+P030,"All-purpose seasoning, bag 100g",Seasonings,bag 100g,By Unit/Package,Yes,All year,High,1500,1.6,1050,450,0.3,C,Valley Spices SpA,0
+P031,"Ground cumin, bag 100g",Seasonings,bag 100g,By Unit/Package,Yes,All year,Medium,1500,1.6,1050,450,0.3,B,Valley Spices SpA,2
+P032,"Oregano, bag 50g",Seasonings,bag 50g,By Unit/Package,No,All year,High,1000,1.07,700,300,0.3,C,Valley Spices SpA,2
+P033,"Ground pepper, bag 100g",Seasonings,bag 100g,By Unit/Package,No,All year,High,2000,2.14,1450,550,0.275,B,Valley Spices SpA,3
+P034,"Bay leaves, bag 50g",Seasonings,bag 50g,By Unit/Package,No,All year,Low,1000,1.07,650,350,0.35,C,Valley Spices SpA,2
+P035,"Paprika, bag 100g",Seasonings,bag 100g,By Unit/Package,No,All year,Low,1500,1.6,1050,450,0.3,C,Valley Spices SpA,0
+P036,"Garlic powder, bag 100g",Seasonings,bag 100g,By Unit/Package,No,All year,Low,1500,1.6,1050,450,0.3,C,Valley Spices SpA,1
+P037,"Curry powder, bag 100g",Seasonings,bag 100g,By Unit/Package,No,All year,High,1500,1.6,1000,500,0.3333333333333333,C,Valley Spices SpA,1
+P038,"Ground cinnamon, bag 100g",Seasonings,bag 100g,By Unit/Package,No,Fall-Winter,High,1500,1.6,1050,450,0.3,B,Valley Spices SpA,1
+P039,"Ground turmeric, bag 100g",Seasonings,bag 100g,By Unit/Package,No,All year,Medium,1500,1.6,1050,450,0.3,C,Valley Spices SpA,1
+P040,"Herbs de Provence mix, bag 50g",Seasonings,bag 50g,By Unit/Package,No,All year,High,2000,2.14,1350,650,0.325,B,Valley Spices SpA,5
+P041,"Multiflora honey, bottle 500g",Honey,bottle 500g,By Unit/Package,Yes,All year,High,4500,4.81,3150,1350,0.3,B,Los Ulmos Apiary,0
+P042,"Ulmo honey, bottle 500g",Honey,bottle 500g,By Unit/Package,No,All year,Medium,5500,5.88,4000,1500,0.2727272727272727,B,Los Ulmos Apiary,2
+P043,"Quillay honey, bottle 500g",Honey,bottle 500g,By Unit/Package,No,All year,High,5000,5.35,3450,1550,0.31,B,Los Ulmos Apiary,5
+P044,"Organic wildflower honey, bottle 500g",Honey,bottle 500g,By Unit/Package,No,All year,Low,6000,6.42,4100,1900,0.31666666666666665,B,Los Ulmos Apiary,3
+P045,"Honeycomb, box 400g",Honey,box 400g,By Unit/Package,No,All year,High,6500,6.95,4700,1800,0.27692307692307694,A,Los Ulmos Apiary,1
+P046,Roasted salted peanuts,Peanuts,kg,By Weight (kg),Yes,All year,Medium,6500,6.95,4750,1750,0.2692307692307692,A,Maipo Nuts Ltd.,1
+P047,Roasted unsalted peanuts,Peanuts,kg,By Weight (kg),No,All year,High,6500,6.95,4650,1850,0.2846153846153846,A,Maipo Nuts Ltd.,1
+P048,Fried peanuts with salt,Peanuts,kg,By Weight (kg),No,All year,Medium,7000,7.49,5050,1950,0.2785714285714286,A,Maipo Nuts Ltd.,1
+P049,Japanese peanuts,Peanuts,kg,By Weight (kg),No,All year,Medium,10000,10.7,7050,2950,0.295,A,Maipo Nuts Ltd.,1
+P050,Candied peanuts (natural),Peanuts,kg,By Weight (kg),No,All year,High,9000,9.63,6450,2550,0.2833333333333333,A,Maipo Nuts Ltd.,1
+P051,Chocolate-coated peanuts,Peanuts,kg,By Weight (kg),No,Fall-Winter,Low,11000,11.76,7700,3300,0.3,A,Maipo Nuts Ltd.,0
+P052,Peanuts with merken,Peanuts,kg,By Weight (kg),No,All year,Medium,7500,8.02,5300,2200,0.29333333333333333,A,Maipo Nuts Ltd.,2
+P053,Honey-glazed peanuts,Peanuts,kg,By Weight (kg),No,All year,Low,8500,9.09,5900,2600,0.3058823529411765,A,Maipo Nuts Ltd.,0
+P054,Salted peanuts in shell,Peanuts,kg,By Weight (kg),No,All year,Low,5500,5.88,4050,1450,0.2636363636363636,A,Maipo Nuts Ltd.,3
+P055,Walnuts (shelled),Nuts,kg,By Weight (kg),Yes,Fall-Winter,Medium,9000,9.63,6800,2200,0.24444444444444444,A,Maipo Nuts Ltd.,0
+P056,Premium light-half walnuts,Nuts,kg,By Weight (kg),No,Fall-Winter,Low,13000,13.9,10000,3000,0.23076923076923078,A,Maipo Nuts Ltd.,1
+P057,Walnuts in shell,Nuts,kg,By Weight (kg),No,Fall-Winter,High,6000,6.42,4650,1350,0.225,A,Maipo Nuts Ltd.,5
+P058,Almonds (shelled),Nuts,kg,By Weight (kg),No,Fall-Winter,High,10000,10.7,7550,2450,0.245,A,Maipo Nuts Ltd.,2
+P059,Sliced almonds,Nuts,kg,By Weight (kg),No,Fall-Winter,High,12000,12.83,9250,2750,0.22916666666666666,A,Maipo Nuts Ltd.,1
+P060,Roasted salted almonds,Nuts,kg,By Weight (kg),No,Fall-Winter,High,11000,11.76,8500,2500,0.22727272727272727,A,Maipo Nuts Ltd.,2
+P061,Hazelnuts,Nuts,kg,By Weight (kg),No,Fall-Winter,High,7500,8.02,5400,2100,0.28,A,Maipo Nuts Ltd.,2
+P062,European hazelnuts (premium),Nuts,kg,By Weight (kg),No,Fall-Winter,High,22000,23.53,16600,5400,0.24545454545454545,A,Maipo Nuts Ltd.,2
+P063,Cashews (salted),Nuts,kg,By Weight (kg),No,Fall-Winter,Low,26000,27.81,19600,6400,0.24615384615384617,A,Maipo Nuts Ltd.,3
+P064,Cashews (unsalted),Nuts,kg,By Weight (kg),No,Fall-Winter,High,26000,27.81,20150,5850,0.225,A,Maipo Nuts Ltd.,1
+P065,"Pistachios (roasted, salted)",Nuts,kg,By Weight (kg),No,Fall-Winter,High,30000,32.09,22950,7050,0.235,A,Maipo Nuts Ltd.,2
+P066,Pistachios (unsalted),Nuts,kg,By Weight (kg),No,Fall-Winter,Medium,30000,32.09,22450,7550,0.25166666666666665,A,Maipo Nuts Ltd.,0
+P067,Pecans (shelled),Nuts,kg,By Weight (kg),No,Fall-Winter,High,18000,19.25,13000,5000,0.2777777777777778,A,Maipo Nuts Ltd.,2
+P068,Brazil nuts,Nuts,kg,By Weight (kg),No,Fall-Winter,Low,16000,17.11,11600,4400,0.275,A,Maipo Nuts Ltd.,0
+P069,Macadamia nuts,Nuts,kg,By Weight (kg),No,Fall-Winter,High,24000,25.67,17200,6800,0.2833333333333333,A,Maipo Nuts Ltd.,2
+P070,Sunflower seeds,Seeds,kg,By Weight (kg),No,All year,Low,4000,4.28,2800,1200,0.3,C,Maipo Nuts Ltd.,5
+P071,Pumpkin seeds,Seeds,kg,By Weight (kg),No,All year,Medium,6000,6.42,4200,1800,0.3,B,Maipo Nuts Ltd.,0
+P072,Chia seeds,Seeds,kg,By Weight (kg),No,All year,High,5000,5.35,3700,1300,0.26,B,Maipo Nuts Ltd.,3
+P073,Flax seeds,Seeds,kg,By Weight (kg),No,All year,High,3500,3.74,2550,950,0.2714285714285714,C,Maipo Nuts Ltd.,2
+P074,Sesame seeds,Seeds,kg,By Weight (kg),No,All year,Low,4500,4.81,3300,1200,0.26666666666666666,B,Maipo Nuts Ltd.,1
+P075,Artisanal alfajores,Candy,unit,By Unit/Package,No,All year,Medium,1000,1.07,700,300,0.3,C,Molina Artisan Sweets,2
+P076,Candied quince (membrillo),Candy,kg,By Weight (kg),No,Fall-Winter,Medium,3500,3.74,2450,1050,0.3,C,Molina Artisan Sweets,1
+P077,"Homemade jam, jar 350g",Candy,jar 350g,By Unit/Package,No,All year,Medium,2000,2.14,1350,650,0.325,B,Molina Artisan Sweets,1
+P078,Artisanal nougat (turron),Candy,unit,By Unit/Package,No,All year,High,1000,1.07,700,300,0.3,C,Molina Artisan Sweets,3
+P079,Raw cane sugar loaf (chancaca),Candy,unit,By Unit/Package,No,Fall-Winter,High,1000,1.07,700,300,0.3,C,Molina Artisan Sweets,2
+P080,Gummy candy bag 100g,Candy,bag 100g,By Unit/Package,No,All year,High,1000,1.07,650,350,0.35,B,Molina Artisan Sweets,2
+P081,Gummy candy bag 50g,Candy,bag 50g,By Unit/Package,No,All year,Low,500,0.53,350,150,0.3,C,Molina Artisan Sweets,2
+P082,Sour gummy bag 100g,Candy,bag 100g,By Unit/Package,No,All year,Medium,1000,1.07,700,300,0.3,B,Molina Artisan Sweets,3
+P083,Wine gums bag 50g,Candy,bag 50g,By Unit/Package,No,All year,High,500,0.53,350,150,0.3,C,Molina Artisan Sweets,3
+P084,Chocolate-coated raisins bag 100g,Candy,bag 100g,By Unit/Package,No,Fall-Winter,High,1000,1.07,700,300,0.3,B,Molina Artisan Sweets,2
+P085,Chocolate-coated peanuts bag 100g,Candy,bag 100g,By Unit/Package,No,Fall-Winter,High,1000,1.07,700,300,0.3,B,Molina Artisan Sweets,5
+P086,Toffee caramels bag 100g,Candy,bag 100g,By Unit/Package,No,All year,High,1000,1.07,650,350,0.35,B,Molina Artisan Sweets,0
+P087,Mint candy bag 50g,Candy,bag 50g,By Unit/Package,No,All year,Medium,500,0.53,350,150,0.3,C,Molina Artisan Sweets,5
+P088,Licorice bag 100g,Candy,bag 100g,By Unit/Package,No,All year,Medium,1000,1.07,650,350,0.35,B,Molina Artisan Sweets,3
+P089,Mixed hard candy bag 50g,Candy,bag 50g,By Unit/Package,No,All year,Low,500,0.53,350,150,0.3,C,Molina Artisan Sweets,2
+P090,Coconut candy bag 100g,Candy,bag 100g,By Unit/Package,No,All year,Medium,1000,1.07,650,350,0.35,B,Molina Artisan Sweets,0
+P091,Dulce de leche cookies bag 100g,Candy,bag 100g,By Unit/Package,No,All year,High,1000,1.07,700,300,0.3,B,Molina Artisan Sweets,1
+P092,Golden raisins,Raisins,kg,By Weight (kg),Yes,Fall-Winter,Medium,7500,8.02,5350,2150,0.2866666666666667,A,San Fernando Dried Goods,1
+P093,Brown raisins,Raisins,kg,By Weight (kg),No,Fall-Winter,Medium,7000,7.49,5150,1850,0.2642857142857143,A,San Fernando Dried Goods,2
+P094,Jumbo raisins,Raisins,kg,By Weight (kg),No,Fall-Winter,Medium,8000,8.56,6000,2000,0.25,A,San Fernando Dried Goods,2
+P095,Dried prunes (with pit),Dried Fruit,kg,By Weight (kg),Yes,Fall-Winter,Medium,4500,4.81,3400,1100,0.24444444444444444,B,San Fernando Dried Goods,1
+P096,Pitted prunes,Dried Fruit,kg,By Weight (kg),No,Fall-Winter,Medium,5500,5.88,4150,1350,0.24545454545454545,B,San Fernando Dried Goods,1
+P097,"Dried peaches (huesillos), large",Dried Fruit,kg,By Weight (kg),Yes,Fall-Winter,Medium,6000,6.42,4200,1800,0.3,B,San Fernando Dried Goods,3
+P098,"Dried peaches (huesillos), medium",Dried Fruit,kg,By Weight (kg),No,Fall-Winter,High,5000,5.35,3600,1400,0.28,B,San Fernando Dried Goods,1
+P099,Dried apricots,Dried Fruit,kg,By Weight (kg),No,Fall-Winter,High,7000,7.49,5000,2000,0.2857142857142857,A,San Fernando Dried Goods,2
+P100,Dried figs,Dried Fruit,kg,By Weight (kg),No,Fall-Winter,High,6500,6.95,4500,2000,0.3076923076923077,A,San Fernando Dried Goods,0
+P101,Dried apple rings,Dried Fruit,kg,By Weight (kg),No,Fall-Winter,High,5500,5.88,3850,1650,0.3,B,San Fernando Dried Goods,2
+P102,Dried pear halves,Dried Fruit,kg,By Weight (kg),No,Fall-Winter,Medium,6500,6.95,4550,1950,0.3,A,San Fernando Dried Goods,0
+P103,Cranberries (dried),Dried Fruit,kg,By Weight (kg),No,Fall-Winter,High,8500,9.09,6400,2100,0.24705882352941178,A,San Fernando Dried Goods,1
+P104,Dried dates,Dried Fruit,kg,By Weight (kg),No,Fall-Winter,Medium,7500,8.02,5400,2100,0.28,A,San Fernando Dried Goods,5
+P105,Banana chips,Dried Fruit,kg,By Weight (kg),No,All year,Low,6000,6.42,4300,1700,0.2833333333333333,B,San Fernando Dried Goods,1
+P106,Dried mango,Dried Fruit,kg,By Weight (kg),No,All year,High,9000,9.63,6500,2500,0.2777777777777778,A,San Fernando Dried Goods,2
+P107,Classic trail mix (nuts & raisins),Trail Mix,kg,By Weight (kg),No,All year,High,8000,8.56,5850,2150,0.26875,A,Maipo Nuts Ltd.,1
+P108,Tropical trail mix,Trail Mix,kg,By Weight (kg),No,All year,Medium,8500,9.09,6500,2000,0.23529411764705882,A,Maipo Nuts Ltd.,1
+P109,Energy mix (seeds & fruit),Trail Mix,kg,By Weight (kg),No,All year,High,7500,8.02,5400,2100,0.28,A,Maipo Nuts Ltd.,2
+P110,Premium nut mix,Trail Mix,kg,By Weight (kg),No,Fall-Winter,High,14000,14.97,9950,4050,0.2892857142857143,A,Maipo Nuts Ltd.,5
+P111,"Student mix (peanut, raisin, choc)",Trail Mix,kg,By Weight (kg),No,All year,High,6500,6.95,4950,1550,0.23846153846153847,B,Maipo Nuts Ltd.,0
+P112,Empty PET bottle 200ml (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,High,1500,1.6,1000,500,0.3333333333333333,C,PackChile Wholesale,0
+P113,Empty PET bottle 350ml (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,Low,2000,2.14,1350,650,0.325,C,PackChile Wholesale,2
+P114,Empty PET bottle 500ml (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,Low,2500,2.67,1650,850,0.34,C,PackChile Wholesale,1
+P115,Empty PET bottle 750ml (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,Medium,3000,3.21,2050,950,0.31666666666666665,C,PackChile Wholesale,0
+P116,Empty PET bottle 1L (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,Low,3500,3.74,2350,1150,0.32857142857142857,B,PackChile Wholesale,1
+P117,Empty PET bottle 1.5L (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,Low,4500,4.81,3100,1400,0.3111111111111111,B,PackChile Wholesale,3
+P118,Empty PET bottle 2L (pack of 10),Packaging,pack 10,By Unit/Package,No,All year,High,5500,5.88,3600,1900,0.34545454545454546,B,PackChile Wholesale,1
+P119,Poly bag 10x15cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,Low,1000,1.07,650,350,0.35,C,PackChile Wholesale,2
+P120,Poly bag 12x20cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,Medium,1500,1.6,950,550,0.36666666666666664,C,PackChile Wholesale,1
+P121,Poly bag 15x25cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,Low,2000,2.14,1300,700,0.35,C,PackChile Wholesale,1
+P122,Poly bag 20x30cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,Low,2500,2.67,1750,750,0.3,C,PackChile Wholesale,0
+P123,Poly bag 25x35cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,High,3000,3.21,1950,1050,0.35,C,PackChile Wholesale,2
+P124,Poly bag 30x40cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,High,4000,4.28,2550,1450,0.3625,B,PackChile Wholesale,0
+P125,Poly bag 35x50cm (pack of 100),Packaging,pack 100,By Unit/Package,No,All year,High,5000,5.35,3300,1700,0.34,B,PackChile Wholesale,5
+P126,Zipper bag 12x18cm (pack of 50),Packaging,pack 50,By Unit/Package,No,All year,High,2500,2.67,1700,800,0.32,C,PackChile Wholesale,3
+P127,Zipper bag 18x25cm (pack of 50),Packaging,pack 50,By Unit/Package,No,All year,Low,3500,3.74,2400,1100,0.3142857142857143,C,PackChile Wholesale,2
+P128,Vacuum bag 20x30cm (pack of 50),Packaging,pack 50,By Unit/Package,No,All year,Low,4500,4.81,3050,1450,0.32222222222222224,B,PackChile Wholesale,0

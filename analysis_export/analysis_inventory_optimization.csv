@@ -1,0 +1,129 @@
+﻿ProductID,Product,Category,Essential,avg_daily_demand,lead_time_days,EOQ,safety_stock,reorder_point
+P001,"Olives 120/140 (extra large), brined",Olives,Yes,3.1,3,92.82,12.84,22.15
+P002,"Olives 140/160 (large), brined",Olives,Yes,3.01,2,99.25,10.54,16.55
+P003,"Olives 160/180, brined",Olives,Yes,3.1,3,101.76,13.1,22.39
+P004,"Olives 180/200, brined",Olives,No,3.21,1,113.22,7.79,11.0
+P005,"Olives 200/220, brined",Olives,Yes,2.93,5,106.85,16.68,31.31
+P006,"Olives 220/240, brined",Olives,No,3.25,2,110.06,10.83,17.34
+P007,"Olives 240/260 (small), brined",Olives,No,2.89,2,113.1,10.26,16.04
+P008,Pitted olives,Olives,No,3.13,3,102.25,13.56,22.94
+P009,Sliced olives (for salads),Olives,No,3.07,1,108.22,7.46,10.53
+P010,Cracked green olives with garlic,Olives,No,3.05,1,109.08,7.91,10.96
+P011,"Black olive pate, jar 250g",Olives,No,2.74,1,94.72,1.59,4.33
+P012,Cooked mote (hominy wheat),Grains,Yes,5.5,0,197.87,0.0,0.0
+P013,Dry mote (raw),Grains,No,5.4,2,205.32,15.32,26.13
+P014,Premium pearled mote,Grains,No,5.55,5,198.9,25.45,53.22
+P015,Pearl barley,Grains,No,4.84,0,165.3,0.0,0.0
+P016,"Mixed pickles, jar 500g",Pickles,No,0.75,0,54.01,0.0,0.0
+P017,"Pickled onions, jar 500g",Pickles,No,0.72,1,57.31,0.89,1.61
+P018,"Pickled cauliflower, jar 500g",Pickles,No,0.78,2,60.29,1.46,3.02
+P019,"Pickled gherkins, jar 500g",Pickles,No,0.71,5,53.35,1.99,5.55
+P020,"Pickled jalapeños, jar 500g",Pickles,No,0.75,3,53.96,1.49,3.73
+P021,"Ground golden chili (aji de color), bag 100g",Chili,Yes,1.56,1,93.88,1.91,3.47
+P022,"Bottled chili sauce, bottle 200ml",Chili,Yes,0.68,3,64.01,1.65,3.68
+P023,"Chili paste, bag 250g",Chili,No,1.49,0,93.46,0.0,0.0
+P024,"Chili paste, bottle 200ml",Chili,No,0.72,0,65.87,0.0,0.0
+P025,"Sliced green chili, bag 200g",Chili,No,1.55,2,107.6,11.13,14.24
+P026,"Dried cacho de cabra chili, bag 50g",Chili,No,1.81,2,116.17,11.28,14.91
+P027,"Ground panca chili, bag 100g",Chili,No,1.6,3,95.07,13.55,18.35
+P028,"Merken (smoked chili), bag 100g",Chili,No,1.63,3,99.41,14.18,19.07
+P029,"Whole dried red chili, bag 100g",Chili,No,1.74,1,101.01,7.86,9.6
+P030,"All-purpose seasoning, bag 100g",Seasonings,Yes,0.83,0,80.47,0.0,0.0
+P031,"Ground cumin, bag 100g",Seasonings,Yes,0.9,2,83.66,1.77,3.57
+P032,"Oregano, bag 50g",Seasonings,No,0.86,2,100.33,1.25,2.97
+P033,"Ground pepper, bag 100g",Seasonings,No,0.85,3,69.21,2.06,4.61
+P034,"Bay leaves, bag 50g",Seasonings,No,1.03,2,113.93,2.7,4.76
+P035,"Paprika, bag 100g",Seasonings,No,0.85,0,81.39,0.0,0.0
+P036,"Garlic powder, bag 100g",Seasonings,No,0.83,1,80.47,0.93,1.76
+P037,"Curry powder, bag 100g",Seasonings,No,0.86,1,84.07,1.76,2.62
+P038,"Ground cinnamon, bag 100g",Seasonings,No,1.07,1,91.53,5.81,6.89
+P039,"Ground turmeric, bag 100g",Seasonings,No,0.88,1,82.83,1.45,2.33
+P040,"Herbs de Provence mix, bag 50g",Seasonings,No,0.9,5,73.95,3.32,7.82
+P041,"Multiflora honey, bottle 500g",Honey,Yes,0.42,0,33.07,0.0,0.0
+P042,"Ulmo honey, bottle 500g",Honey,No,0.44,2,30.01,0.92,1.8
+P043,"Quillay honey, bottle 500g",Honey,No,0.42,5,31.49,0.93,3.02
+P044,"Organic wildflower honey, bottle 500g",Honey,No,0.45,3,29.91,0.8,2.15
+P045,"Honeycomb, box 400g",Honey,No,0.48,1,29.07,0.75,1.24
+P046,Roasted salted peanuts,Peanuts,Yes,1.07,1,42.9,1.13,2.19
+P047,Roasted unsalted peanuts,Peanuts,No,1.09,1,43.77,1.04,2.12
+P048,Fried peanuts with salt,Peanuts,No,1.06,1,41.47,0.93,1.99
+P049,Japanese peanuts,Peanuts,No,1.03,1,34.55,0.95,1.97
+P050,Candied peanuts (natural),Peanuts,No,1.06,1,36.72,0.89,1.95
+P051,Chocolate-coated peanuts,Peanuts,No,1.11,0,34.4,0.0,0.0
+P052,Peanuts with merken,Peanuts,No,1.08,2,40.84,1.38,3.54
+P053,Honey-glazed peanuts,Peanuts,No,1.06,0,38.37,0.0,0.0
+P054,Salted peanuts in shell,Peanuts,No,1.07,3,46.52,1.63,4.84
+P055,Walnuts (shelled),Nuts,Yes,0.67,0,28.41,0.0,0.0
+P056,Premium light-half walnuts,Nuts,No,0.69,1,23.85,2.57,3.26
+P057,Walnuts in shell,Nuts,No,0.71,5,35.25,5.34,8.86
+P058,Almonds (shelled),Nuts,No,0.71,2,27.8,3.64,5.07
+P059,Sliced almonds,Nuts,No,0.68,1,24.48,2.54,3.22
+P060,Roasted salted almonds,Nuts,No,0.67,2,25.43,3.46,4.81
+P061,Hazelnuts,Nuts,No,0.61,2,30.51,3.23,4.46
+P062,European hazelnuts (premium),Nuts,No,0.69,2,18.4,3.47,4.84
+P063,Cashews (salted),Nuts,No,0.69,3,17.04,4.1,6.19
+P064,Cashews (unsalted),Nuts,No,0.67,1,16.45,2.49,3.16
+P065,"Pistachios (roasted, salted)",Nuts,No,0.72,2,16.08,3.59,5.04
+P066,Pistachios (unsalted),Nuts,No,0.71,0,16.04,0.0,0.0
+P067,Pecans (shelled),Nuts,No,0.69,2,20.82,3.3,4.68
+P068,Brazil nuts,Nuts,No,0.66,0,21.59,0.0,0.0
+P069,Macadamia nuts,Nuts,No,0.66,2,17.75,3.37,4.69
+P070,Sunflower seeds,Seeds,No,0.32,5,30.69,0.91,2.52
+P071,Pumpkin seeds,Seeds,No,0.31,0,24.73,0.0,0.0
+P072,Chia seeds,Seeds,No,0.28,3,24.99,0.69,1.53
+P073,Flax seeds,Seeds,No,0.3,2,31.11,0.51,1.11
+P074,Sesame seeds,Seeds,No,0.33,1,28.63,0.39,0.72
+P075,Artisanal alfajores,Candy,No,1.18,2,117.48,1.75,4.11
+P076,Candied quince (membrillo),Candy,No,0.28,1,30.49,1.35,1.63
+P077,"Homemade jam, jar 350g",Candy,No,0.73,1,66.37,0.96,1.68
+P078,Artisanal nougat (turron),Candy,No,1.26,3,121.3,1.77,5.54
+P079,Raw cane sugar loaf (chancaca),Candy,No,1.29,2,123.07,8.96,11.55
+P080,Gummy candy bag 100g,Candy,No,1.62,2,143.08,2.07,5.32
+P081,Gummy candy bag 50g,Candy,No,1.62,2,194.9,2.98,6.23
+P082,Sour gummy bag 100g,Candy,No,1.52,3,133.45,3.43,7.99
+P083,Wine gums bag 50g,Candy,No,1.51,3,187.78,2.39,6.91
+P084,Chocolate-coated raisins bag 100g,Candy,No,1.68,2,140.18,11.34,14.7
+P085,Chocolate-coated peanuts bag 100g,Candy,No,1.65,5,139.03,16.7,24.96
+P086,Toffee caramels bag 100g,Candy,No,1.52,0,138.23,0.0,0.0
+P087,Mint candy bag 50g,Candy,No,1.52,5,188.89,3.52,11.15
+P088,Licorice bag 100g,Candy,No,1.58,3,141.02,2.29,7.02
+P089,Mixed hard candy bag 50g,Candy,No,1.41,2,181.8,2.36,5.19
+P090,Coconut candy bag 100g,Candy,No,1.52,0,138.42,0.0,0.0
+P091,Dulce de leche cookies bag 100g,Candy,No,1.63,1,138.05,1.98,3.61
+P092,Golden raisins,Raisins,Yes,0.53,1,28.45,2.41,2.93
+P093,Brown raisins,Raisins,No,0.52,2,28.66,3.44,4.48
+P094,Jumbo raisins,Raisins,No,0.54,2,27.25,3.45,4.54
+P095,Dried prunes (with pit),Dried Fruit,Yes,0.51,1,34.99,2.16,2.67
+P096,Pitted prunes,Dried Fruit,No,0.55,1,32.93,2.4,2.95
+P097,"Dried peaches (huesillos), large",Dried Fruit,Yes,0.52,3,31.82,4.34,5.9
+P098,"Dried peaches (huesillos), medium",Dried Fruit,No,0.52,1,34.28,2.43,2.94
+P099,Dried apricots,Dried Fruit,No,0.55,2,29.92,3.57,4.66
+P100,Dried figs,Dried Fruit,No,0.53,0,31.18,0.0,0.0
+P101,Dried apple rings,Dried Fruit,No,0.53,2,33.63,3.45,4.52
+P102,Dried pear halves,Dried Fruit,No,0.55,0,31.45,0.0,0.0
+P103,Cranberries (dried),Dried Fruit,No,0.56,1,26.68,2.5,3.06
+P104,Dried dates,Dried Fruit,No,0.55,5,28.79,5.29,8.02
+P105,Banana chips,Dried Fruit,No,0.48,1,30.26,0.73,1.22
+P106,Dried mango,Dried Fruit,No,0.45,2,23.79,0.87,1.77
+P107,Classic trail mix (nuts & raisins),Trail Mix,No,0.52,1,27.0,0.53,1.05
+P108,Tropical trail mix,Trail Mix,No,0.5,1,25.14,0.55,1.05
+P109,Energy mix (seeds & fruit),Trail Mix,No,0.54,2,28.54,0.68,1.76
+P110,Premium nut mix,Trail Mix,No,0.53,5,20.84,4.23,6.87
+P111,"Student mix (peanut, raisin, choc)",Trail Mix,No,0.5,0,28.68,0.0,0.0
+P112,Empty PET bottle 200ml (pack of 10),Packaging,No,0.34,0,52.54,0.0,0.0
+P113,Empty PET bottle 350ml (pack of 10),Packaging,No,0.34,2,45.58,0.51,1.19
+P114,Empty PET bottle 500ml (pack of 10),Packaging,No,0.36,1,42.53,0.52,0.88
+P115,Empty PET bottle 750ml (pack of 10),Packaging,No,0.35,0,37.58,0.0,0.0
+P116,Empty PET bottle 1L (pack of 10),Packaging,No,0.4,1,37.27,0.39,0.79
+P117,Empty PET bottle 1.5L (pack of 10),Packaging,No,0.38,3,31.83,1.45,2.6
+P118,Empty PET bottle 2L (pack of 10),Packaging,No,0.35,1,28.19,0.58,0.93
+P119,Poly bag 10x15cm (pack of 100),Packaging,No,0.4,2,71.12,0.96,1.76
+P120,Poly bag 12x20cm (pack of 100),Packaging,No,0.38,1,57.2,0.79,1.17
+P121,Poly bag 15x25cm (pack of 100),Packaging,No,0.38,1,49.25,0.43,0.81
+P122,Poly bag 20x30cm (pack of 100),Packaging,No,0.41,0,43.64,0.0,0.0
+P123,Poly bag 25x35cm (pack of 100),Packaging,No,0.38,2,40.21,0.93,1.7
+P124,Poly bag 30x40cm (pack of 100),Packaging,No,0.4,0,36.03,0.0,0.0
+P125,Poly bag 35x50cm (pack of 100),Packaging,No,0.34,5,28.98,1.01,2.71
+P126,Zipper bag 12x18cm (pack of 50),Packaging,No,0.39,3,43.29,0.79,1.96
+P127,Zipper bag 18x25cm (pack of 50),Packaging,No,0.36,2,34.93,0.95,1.67
+P128,Vacuum bag 20x30cm (pack of 50),Packaging,No,0.32,0,29.53,0.0,0.0

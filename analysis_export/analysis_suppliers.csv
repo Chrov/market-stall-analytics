@@ -1,0 +1,11 @@
+﻿SupplierName,n_products,avg_lead,n_essential,hhi_contribution,dependency_risk
+Maipo Nuts Ltd.,34,1.62,2,705.56640625,Medium
+Molina Artisan Sweets,17,2.18,0,176.3916015625,Low
+PackChile Wholesale,17,1.41,0,176.3916015625,Low
+San Fernando Dried Goods,15,1.6,3,137.3291015625,High
+Valley Spices SpA,11,1.64,2,73.8525390625,Medium
+El Olivar Olives Ltd.,11,2.18,4,73.8525390625,High
+Curico Chili & Sauces,9,1.67,2,49.4384765625,Medium
+Doña Rosa Pickles,5,2.2,0,15.2587890625,Low
+Los Ulmos Apiary,5,2.2,1,15.2587890625,Medium
+San Vicente Grains & Legumes,4,1.75,1,9.765625,Medium

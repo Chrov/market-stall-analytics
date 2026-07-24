@@ -1,0 +1,257 @@
+﻿SupplyID,ProductID,Product,Category,SupplierRole,SupplierID,SupplierName,PurchasePrice_CLP,PurchasePrice_USD,PriceType,PurchaseUnit,LeadTime_Days,HasDelivery
+SUP0001,P001,"Olives 120/140 (extra large), brined",Olives,Primary,S001,El Olivar Olives Ltd.,2950,3.16,By Weight (kg),kg,3,Yes
+SUP0002,P001,"Olives 120/140 (extra large), brined",Olives,Backup,S002,Aceitunera Central SpA,3000,3.21,By Weight (kg),kg,10,No
+SUP0003,P002,"Olives 140/160 (large), brined",Olives,Primary,S001,El Olivar Olives Ltd.,2500,2.67,By Weight (kg),kg,2,Yes
+SUP0004,P002,"Olives 140/160 (large), brined",Olives,Backup,S002,Aceitunera Central SpA,2700,2.89,By Weight (kg),kg,5,No
+SUP0005,P003,"Olives 160/180, brined",Olives,Primary,S001,El Olivar Olives Ltd.,2450,2.62,By Weight (kg),kg,3,Yes
+SUP0006,P003,"Olives 160/180, brined",Olives,Backup,S002,Aceitunera Central SpA,2600,2.78,By Weight (kg),kg,3,No
+SUP0007,P004,"Olives 180/200, brined",Olives,Primary,S001,El Olivar Olives Ltd.,2050,2.19,By Weight (kg),kg,1,Yes
+SUP0008,P004,"Olives 180/200, brined",Olives,Backup,S002,Aceitunera Central SpA,2300,2.46,By Weight (kg),kg,2,No
+SUP0009,P005,"Olives 200/220, brined",Olives,Primary,S001,El Olivar Olives Ltd.,2100,2.25,By Weight (kg),kg,5,Yes
+SUP0010,P005,"Olives 200/220, brined",Olives,Backup,S002,Aceitunera Central SpA,2300,2.46,By Weight (kg),kg,10,No
+SUP0011,P006,"Olives 220/240, brined",Olives,Primary,S001,El Olivar Olives Ltd.,2200,2.35,By Weight (kg),kg,2,Yes
+SUP0012,P006,"Olives 220/240, brined",Olives,Backup,S002,Aceitunera Central SpA,2200,2.35,By Weight (kg),kg,5,No
+SUP0013,P007,"Olives 240/260 (small), brined",Olives,Primary,S001,El Olivar Olives Ltd.,1850,1.98,By Weight (kg),kg,2,Yes
+SUP0014,P007,"Olives 240/260 (small), brined",Olives,Backup,S002,Aceitunera Central SpA,1900,2.03,By Weight (kg),kg,3,No
+SUP0015,P008,Pitted olives,Olives,Primary,S001,El Olivar Olives Ltd.,2450,2.62,By Weight (kg),kg,3,Yes
+SUP0016,P008,Pitted olives,Olives,Backup,S002,Aceitunera Central SpA,2650,2.83,By Weight (kg),kg,3,No
+SUP0017,P009,Sliced olives (for salads),Olives,Primary,S001,El Olivar Olives Ltd.,2150,2.3,By Weight (kg),kg,1,Yes
+SUP0018,P009,Sliced olives (for salads),Olives,Backup,S002,Aceitunera Central SpA,2200,2.35,By Weight (kg),kg,5,No
+SUP0019,P010,Cracked green olives with garlic,Olives,Primary,S001,El Olivar Olives Ltd.,2100,2.25,By Weight (kg),kg,1,Yes
+SUP0020,P010,Cracked green olives with garlic,Olives,Backup,S002,Aceitunera Central SpA,2150,2.3,By Weight (kg),kg,5,No
+SUP0021,P011,"Black olive pate, jar 250g",Olives,Primary,S001,El Olivar Olives Ltd.,2500,2.67,By Unit/Package,jar 250g,1,Yes
+SUP0022,P011,"Black olive pate, jar 250g",Olives,Backup,S002,Aceitunera Central SpA,2550,2.73,By Unit/Package,jar 250g,3,No
+SUP0023,P012,Cooked mote (hominy wheat),Grains,Primary,S003,San Vicente Grains & Legumes,1150,1.23,By Weight (kg),kg,0,No
+SUP0024,P012,Cooked mote (hominy wheat),Grains,Backup,S004,Molino del Valle,1150,1.23,By Weight (kg),kg,5,Yes
+SUP0025,P013,Dry mote (raw),Grains,Primary,S003,San Vicente Grains & Legumes,1050,1.12,By Weight (kg),kg,2,No
+SUP0026,P013,Dry mote (raw),Grains,Backup,S004,Molino del Valle,1200,1.28,By Weight (kg),kg,5,Yes
+SUP0027,P014,Premium pearled mote,Grains,Primary,S003,San Vicente Grains & Legumes,1150,1.23,By Weight (kg),kg,5,No
+SUP0028,P014,Premium pearled mote,Grains,Backup,S004,Molino del Valle,1100,1.18,By Weight (kg),kg,5,Yes
+SUP0029,P015,Pearl barley,Grains,Primary,S003,San Vicente Grains & Legumes,1450,1.55,By Weight (kg),kg,0,No
+SUP0030,P015,Pearl barley,Grains,Backup,S004,Molino del Valle,1550,1.66,By Weight (kg),kg,5,Yes
+SUP0031,P016,"Mixed pickles, jar 500g",Pickles,Primary,S005,Doña Rosa Pickles,2100,2.25,By Unit/Package,jar 500g,0,Yes
+SUP0032,P016,"Mixed pickles, jar 500g",Pickles,Backup,S006,Conservas El Huerto,2200,2.35,By Unit/Package,jar 500g,3,No
+SUP0033,P017,"Pickled onions, jar 500g",Pickles,Primary,S005,Doña Rosa Pickles,1800,1.93,By Unit/Package,jar 500g,1,Yes
+SUP0034,P017,"Pickled onions, jar 500g",Pickles,Backup,S006,Conservas El Huerto,1850,1.98,By Unit/Package,jar 500g,7,No
+SUP0035,P018,"Pickled cauliflower, jar 500g",Pickles,Primary,S005,Doña Rosa Pickles,1750,1.87,By Unit/Package,jar 500g,2,Yes
+SUP0036,P018,"Pickled cauliflower, jar 500g",Pickles,Backup,S006,Conservas El Huerto,1800,1.93,By Unit/Package,jar 500g,5,No
+SUP0037,P019,"Pickled gherkins, jar 500g",Pickles,Primary,S005,Doña Rosa Pickles,2050,2.19,By Unit/Package,jar 500g,5,Yes
+SUP0038,P019,"Pickled gherkins, jar 500g",Pickles,Backup,S006,Conservas El Huerto,2300,2.46,By Unit/Package,jar 500g,3,No
+SUP0039,P020,"Pickled jalapeños, jar 500g",Pickles,Primary,S005,Doña Rosa Pickles,2100,2.25,By Unit/Package,jar 500g,3,Yes
+SUP0040,P020,"Pickled jalapeños, jar 500g",Pickles,Backup,S006,Conservas El Huerto,2150,2.3,By Unit/Package,jar 500g,5,No
+SUP0041,P021,"Ground golden chili (aji de color), bag 100g",Chili,Primary,S007,Curico Chili & Sauces,1450,1.55,By Unit/Package,bag 100g,1,No
+SUP0042,P021,"Ground golden chili (aji de color), bag 100g",Chili,Backup,S008,Merken del Sur,1400,1.5,By Unit/Package,bag 100g,5,Yes
+SUP0043,P022,"Bottled chili sauce, bottle 200ml",Chili,Primary,S007,Curico Chili & Sauces,1350,1.44,By Unit/Package,bottle 200ml,3,No
+SUP0044,P022,"Bottled chili sauce, bottle 200ml",Chili,Backup,S008,Merken del Sur,1400,1.5,By Unit/Package,bottle 200ml,3,Yes
+SUP0045,P023,"Chili paste, bag 250g",Chili,Primary,S007,Curico Chili & Sauces,1400,1.5,By Unit/Package,bag 250g,0,No
+SUP0046,P023,"Chili paste, bag 250g",Chili,Backup,S008,Merken del Sur,1450,1.55,By Unit/Package,bag 250g,7,Yes
+SUP0047,P024,"Chili paste, bottle 200ml",Chili,Primary,S007,Curico Chili & Sauces,1350,1.44,By Unit/Package,bottle 200ml,0,No
+SUP0048,P024,"Chili paste, bottle 200ml",Chili,Backup,S008,Merken del Sur,1500,1.6,By Unit/Package,bottle 200ml,2,Yes
+SUP0049,P025,"Sliced green chili, bag 200g",Chili,Primary,S007,Curico Chili & Sauces,1100,1.18,By Unit/Package,bag 200g,2,No
+SUP0050,P025,"Sliced green chili, bag 200g",Chili,Backup,S008,Merken del Sur,1150,1.23,By Unit/Package,bag 200g,7,Yes
+SUP0051,P026,"Dried cacho de cabra chili, bag 50g",Chili,Primary,S007,Curico Chili & Sauces,1100,1.18,By Unit/Package,bag 50g,2,No
+SUP0052,P026,"Dried cacho de cabra chili, bag 50g",Chili,Backup,S008,Merken del Sur,1100,1.18,By Unit/Package,bag 50g,3,Yes
+SUP0053,P027,"Ground panca chili, bag 100g",Chili,Primary,S007,Curico Chili & Sauces,1450,1.55,By Unit/Package,bag 100g,3,No
+SUP0054,P027,"Ground panca chili, bag 100g",Chili,Backup,S008,Merken del Sur,1400,1.5,By Unit/Package,bag 100g,3,Yes
+SUP0055,P028,"Merken (smoked chili), bag 100g",Chili,Primary,S007,Curico Chili & Sauces,1350,1.44,By Unit/Package,bag 100g,3,No
+SUP0056,P028,"Merken (smoked chili), bag 100g",Chili,Backup,S008,Merken del Sur,1500,1.6,By Unit/Package,bag 100g,7,Yes
+SUP0057,P029,"Whole dried red chili, bag 100g",Chili,Primary,S007,Curico Chili & Sauces,1400,1.5,By Unit/Package,bag 100g,1,No
+SUP0058,P029,"Whole dried red chili, bag 100g",Chili,Backup,S008,Merken del Sur,1500,1.6,By Unit/Package,bag 100g,7,Yes
+SUP0059,P030,"All-purpose seasoning, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1050,1.12,By Unit/Package,bag 100g,0,Yes
+SUP0060,P030,"All-purpose seasoning, bag 100g",Seasonings,Backup,S010,Especias Andinas,1050,1.12,By Unit/Package,bag 100g,2,Yes
+SUP0061,P031,"Ground cumin, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1050,1.12,By Unit/Package,bag 100g,2,Yes
+SUP0062,P031,"Ground cumin, bag 100g",Seasonings,Backup,S010,Especias Andinas,1050,1.12,By Unit/Package,bag 100g,2,Yes
+SUP0063,P032,"Oregano, bag 50g",Seasonings,Primary,S009,Valley Spices SpA,700,0.75,By Unit/Package,bag 50g,2,Yes
+SUP0064,P032,"Oregano, bag 50g",Seasonings,Backup,S010,Especias Andinas,700,0.75,By Unit/Package,bag 50g,3,Yes
+SUP0065,P033,"Ground pepper, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1450,1.55,By Unit/Package,bag 100g,3,Yes
+SUP0066,P033,"Ground pepper, bag 100g",Seasonings,Backup,S010,Especias Andinas,1350,1.44,By Unit/Package,bag 100g,7,Yes
+SUP0067,P034,"Bay leaves, bag 50g",Seasonings,Primary,S009,Valley Spices SpA,650,0.7,By Unit/Package,bag 50g,2,Yes
+SUP0068,P034,"Bay leaves, bag 50g",Seasonings,Backup,S010,Especias Andinas,650,0.7,By Unit/Package,bag 50g,3,Yes
+SUP0069,P035,"Paprika, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1050,1.12,By Unit/Package,bag 100g,0,Yes
+SUP0070,P035,"Paprika, bag 100g",Seasonings,Backup,S010,Especias Andinas,1000,1.07,By Unit/Package,bag 100g,5,Yes
+SUP0071,P036,"Garlic powder, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1050,1.12,By Unit/Package,bag 100g,1,Yes
+SUP0072,P036,"Garlic powder, bag 100g",Seasonings,Backup,S010,Especias Andinas,1050,1.12,By Unit/Package,bag 100g,5,Yes
+SUP0073,P037,"Curry powder, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1000,1.07,By Unit/Package,bag 100g,1,Yes
+SUP0074,P037,"Curry powder, bag 100g",Seasonings,Backup,S010,Especias Andinas,1000,1.07,By Unit/Package,bag 100g,3,Yes
+SUP0075,P038,"Ground cinnamon, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1050,1.12,By Unit/Package,bag 100g,1,Yes
+SUP0076,P038,"Ground cinnamon, bag 100g",Seasonings,Backup,S010,Especias Andinas,1100,1.18,By Unit/Package,bag 100g,7,Yes
+SUP0077,P039,"Ground turmeric, bag 100g",Seasonings,Primary,S009,Valley Spices SpA,1050,1.12,By Unit/Package,bag 100g,1,Yes
+SUP0078,P039,"Ground turmeric, bag 100g",Seasonings,Backup,S010,Especias Andinas,1100,1.18,By Unit/Package,bag 100g,3,Yes
+SUP0079,P040,"Herbs de Provence mix, bag 50g",Seasonings,Primary,S009,Valley Spices SpA,1350,1.44,By Unit/Package,bag 50g,5,Yes
+SUP0080,P040,"Herbs de Provence mix, bag 50g",Seasonings,Backup,S010,Especias Andinas,1450,1.55,By Unit/Package,bag 50g,5,Yes
+SUP0081,P041,"Multiflora honey, bottle 500g",Honey,Primary,S011,Los Ulmos Apiary,3150,3.37,By Unit/Package,bottle 500g,0,No
+SUP0082,P041,"Multiflora honey, bottle 500g",Honey,Backup,S012,Miel Nativa Ltda.,3350,3.58,By Unit/Package,bottle 500g,5,Yes
+SUP0083,P042,"Ulmo honey, bottle 500g",Honey,Primary,S011,Los Ulmos Apiary,4000,4.28,By Unit/Package,bottle 500g,2,No
+SUP0084,P042,"Ulmo honey, bottle 500g",Honey,Backup,S012,Miel Nativa Ltda.,4050,4.33,By Unit/Package,bottle 500g,2,Yes
+SUP0085,P043,"Quillay honey, bottle 500g",Honey,Primary,S011,Los Ulmos Apiary,3450,3.69,By Unit/Package,bottle 500g,5,No
+SUP0086,P043,"Quillay honey, bottle 500g",Honey,Backup,S012,Miel Nativa Ltda.,3750,4.01,By Unit/Package,bottle 500g,2,Yes
+SUP0087,P044,"Organic wildflower honey, bottle 500g",Honey,Primary,S011,Los Ulmos Apiary,4100,4.39,By Unit/Package,bottle 500g,3,No
+SUP0088,P044,"Organic wildflower honey, bottle 500g",Honey,Backup,S012,Miel Nativa Ltda.,4450,4.76,By Unit/Package,bottle 500g,3,Yes
+SUP0089,P045,"Honeycomb, box 400g",Honey,Primary,S011,Los Ulmos Apiary,4700,5.03,By Unit/Package,box 400g,1,No
+SUP0090,P045,"Honeycomb, box 400g",Honey,Backup,S012,Miel Nativa Ltda.,4700,5.03,By Unit/Package,box 400g,7,Yes
+SUP0091,P046,Roasted salted peanuts,Peanuts,Primary,S013,Maipo Nuts Ltd.,4750,5.08,By Weight (kg),kg,1,Yes
+SUP0092,P046,Roasted salted peanuts,Peanuts,Backup,S014,El Palomo Nuts,5100,5.45,By Weight (kg),kg,7,Yes
+SUP0093,P047,Roasted unsalted peanuts,Peanuts,Primary,S013,Maipo Nuts Ltd.,4650,4.97,By Weight (kg),kg,1,Yes
+SUP0094,P047,Roasted unsalted peanuts,Peanuts,Backup,S014,El Palomo Nuts,4700,5.03,By Weight (kg),kg,7,Yes
+SUP0095,P048,Fried peanuts with salt,Peanuts,Primary,S013,Maipo Nuts Ltd.,5050,5.4,By Weight (kg),kg,1,Yes
+SUP0096,P048,Fried peanuts with salt,Peanuts,Backup,S014,El Palomo Nuts,5300,5.67,By Weight (kg),kg,3,Yes
+SUP0097,P049,Japanese peanuts,Peanuts,Primary,S013,Maipo Nuts Ltd.,7050,7.54,By Weight (kg),kg,1,Yes
+SUP0098,P049,Japanese peanuts,Peanuts,Backup,S014,El Palomo Nuts,7400,7.91,By Weight (kg),kg,2,Yes
+SUP0099,P050,Candied peanuts (natural),Peanuts,Primary,S013,Maipo Nuts Ltd.,6450,6.9,By Weight (kg),kg,1,Yes
+SUP0100,P050,Candied peanuts (natural),Peanuts,Backup,S014,El Palomo Nuts,6650,7.11,By Weight (kg),kg,5,Yes
+SUP0101,P051,Chocolate-coated peanuts,Peanuts,Primary,S013,Maipo Nuts Ltd.,7700,8.24,By Weight (kg),kg,0,Yes
+SUP0102,P051,Chocolate-coated peanuts,Peanuts,Backup,S014,El Palomo Nuts,8200,8.77,By Weight (kg),kg,2,Yes
+SUP0103,P052,Peanuts with merken,Peanuts,Primary,S013,Maipo Nuts Ltd.,5300,5.67,By Weight (kg),kg,2,Yes
+SUP0104,P052,Peanuts with merken,Peanuts,Backup,S014,El Palomo Nuts,5500,5.88,By Weight (kg),kg,3,Yes
+SUP0105,P053,Honey-glazed peanuts,Peanuts,Primary,S013,Maipo Nuts Ltd.,5900,6.31,By Weight (kg),kg,0,Yes
+SUP0106,P053,Honey-glazed peanuts,Peanuts,Backup,S014,El Palomo Nuts,6750,7.22,By Weight (kg),kg,3,Yes
+SUP0107,P054,Salted peanuts in shell,Peanuts,Primary,S013,Maipo Nuts Ltd.,4050,4.33,By Weight (kg),kg,3,Yes
+SUP0108,P054,Salted peanuts in shell,Peanuts,Backup,S014,El Palomo Nuts,4300,4.6,By Weight (kg),kg,5,Yes
+SUP0109,P055,Walnuts (shelled),Nuts,Primary,S013,Maipo Nuts Ltd.,6800,7.27,By Weight (kg),kg,0,Yes
+SUP0110,P055,Walnuts (shelled),Nuts,Backup,S015,Nogal Dryfruits,7300,7.81,By Weight (kg),kg,3,No
+SUP0111,P056,Premium light-half walnuts,Nuts,Primary,S013,Maipo Nuts Ltd.,10000,10.7,By Weight (kg),kg,1,Yes
+SUP0112,P056,Premium light-half walnuts,Nuts,Backup,S015,Nogal Dryfruits,9650,10.32,By Weight (kg),kg,7,No
+SUP0113,P057,Walnuts in shell,Nuts,Primary,S013,Maipo Nuts Ltd.,4650,4.97,By Weight (kg),kg,5,Yes
+SUP0114,P057,Walnuts in shell,Nuts,Backup,S015,Nogal Dryfruits,4600,4.92,By Weight (kg),kg,10,No
+SUP0115,P058,Almonds (shelled),Nuts,Primary,S013,Maipo Nuts Ltd.,7550,8.07,By Weight (kg),kg,2,Yes
+SUP0116,P058,Almonds (shelled),Nuts,Backup,S015,Nogal Dryfruits,7650,8.18,By Weight (kg),kg,2,No
+SUP0117,P059,Sliced almonds,Nuts,Primary,S013,Maipo Nuts Ltd.,9250,9.89,By Weight (kg),kg,1,Yes
+SUP0118,P059,Sliced almonds,Nuts,Backup,S015,Nogal Dryfruits,9550,10.21,By Weight (kg),kg,10,No
+SUP0119,P060,Roasted salted almonds,Nuts,Primary,S013,Maipo Nuts Ltd.,8500,9.09,By Weight (kg),kg,2,Yes
+SUP0120,P060,Roasted salted almonds,Nuts,Backup,S015,Nogal Dryfruits,8800,9.41,By Weight (kg),kg,7,No
+SUP0121,P061,Hazelnuts,Nuts,Primary,S013,Maipo Nuts Ltd.,5400,5.78,By Weight (kg),kg,2,Yes
+SUP0122,P061,Hazelnuts,Nuts,Backup,S015,Nogal Dryfruits,6250,6.68,By Weight (kg),kg,2,No
+SUP0123,P062,European hazelnuts (premium),Nuts,Primary,S013,Maipo Nuts Ltd.,16600,17.75,By Weight (kg),kg,2,Yes
+SUP0124,P062,European hazelnuts (premium),Nuts,Backup,S015,Nogal Dryfruits,16700,17.86,By Weight (kg),kg,5,No
+SUP0125,P063,Cashews (salted),Nuts,Primary,S013,Maipo Nuts Ltd.,19600,20.96,By Weight (kg),kg,3,Yes
+SUP0126,P063,Cashews (salted),Nuts,Backup,S015,Nogal Dryfruits,19850,21.23,By Weight (kg),kg,5,No
+SUP0127,P064,Cashews (unsalted),Nuts,Primary,S013,Maipo Nuts Ltd.,20150,21.55,By Weight (kg),kg,1,Yes
+SUP0128,P064,Cashews (unsalted),Nuts,Backup,S015,Nogal Dryfruits,20250,21.66,By Weight (kg),kg,7,No
+SUP0129,P065,"Pistachios (roasted, salted)",Nuts,Primary,S013,Maipo Nuts Ltd.,22950,24.55,By Weight (kg),kg,2,Yes
+SUP0130,P065,"Pistachios (roasted, salted)",Nuts,Backup,S015,Nogal Dryfruits,23900,25.56,By Weight (kg),kg,3,No
+SUP0131,P066,Pistachios (unsalted),Nuts,Primary,S013,Maipo Nuts Ltd.,22450,24.01,By Weight (kg),kg,0,Yes
+SUP0132,P066,Pistachios (unsalted),Nuts,Backup,S015,Nogal Dryfruits,24400,26.1,By Weight (kg),kg,3,No
+SUP0133,P067,Pecans (shelled),Nuts,Primary,S013,Maipo Nuts Ltd.,13000,13.9,By Weight (kg),kg,2,Yes
+SUP0134,P067,Pecans (shelled),Nuts,Backup,S015,Nogal Dryfruits,14800,15.83,By Weight (kg),kg,2,No
+SUP0135,P068,Brazil nuts,Nuts,Primary,S013,Maipo Nuts Ltd.,11600,12.41,By Weight (kg),kg,0,Yes
+SUP0136,P068,Brazil nuts,Nuts,Backup,S015,Nogal Dryfruits,12100,12.94,By Weight (kg),kg,3,No
+SUP0137,P069,Macadamia nuts,Nuts,Primary,S013,Maipo Nuts Ltd.,17200,18.4,By Weight (kg),kg,2,Yes
+SUP0138,P069,Macadamia nuts,Nuts,Backup,S015,Nogal Dryfruits,18600,19.89,By Weight (kg),kg,2,No
+SUP0139,P070,Sunflower seeds,Seeds,Primary,S013,Maipo Nuts Ltd.,2800,2.99,By Weight (kg),kg,5,Yes
+SUP0140,P070,Sunflower seeds,Seeds,Backup,S016,Semillas del Campo,3050,3.26,By Weight (kg),kg,3,No
+SUP0141,P071,Pumpkin seeds,Seeds,Primary,S013,Maipo Nuts Ltd.,4200,4.49,By Weight (kg),kg,0,Yes
+SUP0142,P071,Pumpkin seeds,Seeds,Backup,S016,Semillas del Campo,4500,4.81,By Weight (kg),kg,5,No
+SUP0143,P072,Chia seeds,Seeds,Primary,S013,Maipo Nuts Ltd.,3700,3.96,By Weight (kg),kg,3,Yes
+SUP0144,P072,Chia seeds,Seeds,Backup,S016,Semillas del Campo,3850,4.12,By Weight (kg),kg,5,No
+SUP0145,P073,Flax seeds,Seeds,Primary,S013,Maipo Nuts Ltd.,2550,2.73,By Weight (kg),kg,2,Yes
+SUP0146,P073,Flax seeds,Seeds,Backup,S016,Semillas del Campo,2550,2.73,By Weight (kg),kg,10,No
+SUP0147,P074,Sesame seeds,Seeds,Primary,S013,Maipo Nuts Ltd.,3300,3.53,By Weight (kg),kg,1,Yes
+SUP0148,P074,Sesame seeds,Seeds,Backup,S016,Semillas del Campo,3450,3.69,By Weight (kg),kg,3,No
+SUP0149,P075,Artisanal alfajores,Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,unit,2,No
+SUP0150,P075,Artisanal alfajores,Candy,Backup,S018,Dulces La Estrella,700,0.75,By Unit/Package,unit,5,Yes
+SUP0151,P076,Candied quince (membrillo),Candy,Primary,S017,Molina Artisan Sweets,2450,2.62,By Weight (kg),kg,1,No
+SUP0152,P076,Candied quince (membrillo),Candy,Backup,S018,Dulces La Estrella,2400,2.57,By Weight (kg),kg,5,Yes
+SUP0153,P077,"Homemade jam, jar 350g",Candy,Primary,S017,Molina Artisan Sweets,1350,1.44,By Unit/Package,jar 350g,1,No
+SUP0154,P077,"Homemade jam, jar 350g",Candy,Backup,S018,Dulces La Estrella,1450,1.55,By Unit/Package,jar 350g,3,Yes
+SUP0155,P078,Artisanal nougat (turron),Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,unit,3,No
+SUP0156,P078,Artisanal nougat (turron),Candy,Backup,S018,Dulces La Estrella,750,0.8,By Unit/Package,unit,5,Yes
+SUP0157,P079,Raw cane sugar loaf (chancaca),Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,unit,2,No
+SUP0158,P079,Raw cane sugar loaf (chancaca),Candy,Backup,S018,Dulces La Estrella,750,0.8,By Unit/Package,unit,3,Yes
+SUP0159,P080,Gummy candy bag 100g,Candy,Primary,S017,Molina Artisan Sweets,650,0.7,By Unit/Package,bag 100g,2,No
+SUP0160,P080,Gummy candy bag 100g,Candy,Backup,S018,Dulces La Estrella,750,0.8,By Unit/Package,bag 100g,7,Yes
+SUP0161,P081,Gummy candy bag 50g,Candy,Primary,S017,Molina Artisan Sweets,350,0.37,By Unit/Package,bag 50g,2,No
+SUP0162,P081,Gummy candy bag 50g,Candy,Backup,S018,Dulces La Estrella,350,0.37,By Unit/Package,bag 50g,10,Yes
+SUP0163,P082,Sour gummy bag 100g,Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,bag 100g,3,No
+SUP0164,P082,Sour gummy bag 100g,Candy,Backup,S018,Dulces La Estrella,700,0.75,By Unit/Package,bag 100g,3,Yes
+SUP0165,P083,Wine gums bag 50g,Candy,Primary,S017,Molina Artisan Sweets,350,0.37,By Unit/Package,bag 50g,3,No
+SUP0166,P083,Wine gums bag 50g,Candy,Backup,S018,Dulces La Estrella,350,0.37,By Unit/Package,bag 50g,3,Yes
+SUP0167,P084,Chocolate-coated raisins bag 100g,Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,bag 100g,2,No
+SUP0168,P084,Chocolate-coated raisins bag 100g,Candy,Backup,S018,Dulces La Estrella,700,0.75,By Unit/Package,bag 100g,2,Yes
+SUP0169,P085,Chocolate-coated peanuts bag 100g,Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,bag 100g,5,No
+SUP0170,P085,Chocolate-coated peanuts bag 100g,Candy,Backup,S018,Dulces La Estrella,700,0.75,By Unit/Package,bag 100g,10,Yes
+SUP0171,P086,Toffee caramels bag 100g,Candy,Primary,S017,Molina Artisan Sweets,650,0.7,By Unit/Package,bag 100g,0,No
+SUP0172,P086,Toffee caramels bag 100g,Candy,Backup,S018,Dulces La Estrella,700,0.75,By Unit/Package,bag 100g,3,Yes
+SUP0173,P087,Mint candy bag 50g,Candy,Primary,S017,Molina Artisan Sweets,350,0.37,By Unit/Package,bag 50g,5,No
+SUP0174,P087,Mint candy bag 50g,Candy,Backup,S018,Dulces La Estrella,350,0.37,By Unit/Package,bag 50g,3,Yes
+SUP0175,P088,Licorice bag 100g,Candy,Primary,S017,Molina Artisan Sweets,650,0.7,By Unit/Package,bag 100g,3,No
+SUP0176,P088,Licorice bag 100g,Candy,Backup,S018,Dulces La Estrella,750,0.8,By Unit/Package,bag 100g,3,Yes
+SUP0177,P089,Mixed hard candy bag 50g,Candy,Primary,S017,Molina Artisan Sweets,350,0.37,By Unit/Package,bag 50g,2,No
+SUP0178,P089,Mixed hard candy bag 50g,Candy,Backup,S018,Dulces La Estrella,350,0.37,By Unit/Package,bag 50g,10,Yes
+SUP0179,P090,Coconut candy bag 100g,Candy,Primary,S017,Molina Artisan Sweets,650,0.7,By Unit/Package,bag 100g,0,No
+SUP0180,P090,Coconut candy bag 100g,Candy,Backup,S018,Dulces La Estrella,750,0.8,By Unit/Package,bag 100g,5,Yes
+SUP0181,P091,Dulce de leche cookies bag 100g,Candy,Primary,S017,Molina Artisan Sweets,700,0.75,By Unit/Package,bag 100g,1,No
+SUP0182,P091,Dulce de leche cookies bag 100g,Candy,Backup,S018,Dulces La Estrella,700,0.75,By Unit/Package,bag 100g,7,Yes
+SUP0183,P092,Golden raisins,Raisins,Primary,S019,San Fernando Dried Goods,5350,5.72,By Weight (kg),kg,1,Yes
+SUP0184,P092,Golden raisins,Raisins,Backup,S020,Deshidratados Elqui,5550,5.94,By Weight (kg),kg,5,No
+SUP0185,P093,Brown raisins,Raisins,Primary,S019,San Fernando Dried Goods,5150,5.51,By Weight (kg),kg,2,Yes
+SUP0186,P093,Brown raisins,Raisins,Backup,S020,Deshidratados Elqui,5100,5.45,By Weight (kg),kg,7,No
+SUP0187,P094,Jumbo raisins,Raisins,Primary,S019,San Fernando Dried Goods,6000,6.42,By Weight (kg),kg,2,Yes
+SUP0188,P094,Jumbo raisins,Raisins,Backup,S020,Deshidratados Elqui,6000,6.42,By Weight (kg),kg,3,No
+SUP0189,P095,Dried prunes (with pit),Dried Fruit,Primary,S019,San Fernando Dried Goods,3400,3.64,By Weight (kg),kg,1,Yes
+SUP0190,P095,Dried prunes (with pit),Dried Fruit,Backup,S020,Deshidratados Elqui,3350,3.58,By Weight (kg),kg,5,No
+SUP0191,P096,Pitted prunes,Dried Fruit,Primary,S019,San Fernando Dried Goods,4150,4.44,By Weight (kg),kg,1,Yes
+SUP0192,P096,Pitted prunes,Dried Fruit,Backup,S020,Deshidratados Elqui,4250,4.55,By Weight (kg),kg,2,No
+SUP0193,P097,"Dried peaches (huesillos), large",Dried Fruit,Primary,S019,San Fernando Dried Goods,4200,4.49,By Weight (kg),kg,3,Yes
+SUP0194,P097,"Dried peaches (huesillos), large",Dried Fruit,Backup,S020,Deshidratados Elqui,4600,4.92,By Weight (kg),kg,10,No
+SUP0195,P098,"Dried peaches (huesillos), medium",Dried Fruit,Primary,S019,San Fernando Dried Goods,3600,3.85,By Weight (kg),kg,1,Yes
+SUP0196,P098,"Dried peaches (huesillos), medium",Dried Fruit,Backup,S020,Deshidratados Elqui,3750,4.01,By Weight (kg),kg,5,No
+SUP0197,P099,Dried apricots,Dried Fruit,Primary,S019,San Fernando Dried Goods,5000,5.35,By Weight (kg),kg,2,Yes
+SUP0198,P099,Dried apricots,Dried Fruit,Backup,S020,Deshidratados Elqui,5050,5.4,By Weight (kg),kg,5,No
+SUP0199,P100,Dried figs,Dried Fruit,Primary,S019,San Fernando Dried Goods,4500,4.81,By Weight (kg),kg,0,Yes
+SUP0200,P100,Dried figs,Dried Fruit,Backup,S020,Deshidratados Elqui,4950,5.29,By Weight (kg),kg,3,No
+SUP0201,P101,Dried apple rings,Dried Fruit,Primary,S019,San Fernando Dried Goods,3850,4.12,By Weight (kg),kg,2,Yes
+SUP0202,P101,Dried apple rings,Dried Fruit,Backup,S020,Deshidratados Elqui,4200,4.49,By Weight (kg),kg,2,No
+SUP0203,P102,Dried pear halves,Dried Fruit,Primary,S019,San Fernando Dried Goods,4550,4.87,By Weight (kg),kg,0,Yes
+SUP0204,P102,Dried pear halves,Dried Fruit,Backup,S020,Deshidratados Elqui,4950,5.29,By Weight (kg),kg,5,No
+SUP0205,P103,Cranberries (dried),Dried Fruit,Primary,S019,San Fernando Dried Goods,6400,6.84,By Weight (kg),kg,1,Yes
+SUP0206,P103,Cranberries (dried),Dried Fruit,Backup,S020,Deshidratados Elqui,6600,7.06,By Weight (kg),kg,10,No
+SUP0207,P104,Dried dates,Dried Fruit,Primary,S019,San Fernando Dried Goods,5400,5.78,By Weight (kg),kg,5,Yes
+SUP0208,P104,Dried dates,Dried Fruit,Backup,S020,Deshidratados Elqui,5450,5.83,By Weight (kg),kg,2,No
+SUP0209,P105,Banana chips,Dried Fruit,Primary,S019,San Fernando Dried Goods,4300,4.6,By Weight (kg),kg,1,Yes
+SUP0210,P105,Banana chips,Dried Fruit,Backup,S020,Deshidratados Elqui,4850,5.19,By Weight (kg),kg,10,No
+SUP0211,P106,Dried mango,Dried Fruit,Primary,S019,San Fernando Dried Goods,6500,6.95,By Weight (kg),kg,2,Yes
+SUP0212,P106,Dried mango,Dried Fruit,Backup,S020,Deshidratados Elqui,6800,7.27,By Weight (kg),kg,5,No
+SUP0213,P107,Classic trail mix (nuts & raisins),Trail Mix,Primary,S013,Maipo Nuts Ltd.,5850,6.26,By Weight (kg),kg,1,Yes
+SUP0214,P107,Classic trail mix (nuts & raisins),Trail Mix,Backup,S019,San Fernando Dried Goods,6300,6.74,By Weight (kg),kg,3,Yes
+SUP0215,P108,Tropical trail mix,Trail Mix,Primary,S013,Maipo Nuts Ltd.,6500,6.95,By Weight (kg),kg,1,Yes
+SUP0216,P108,Tropical trail mix,Trail Mix,Backup,S019,San Fernando Dried Goods,6300,6.74,By Weight (kg),kg,7,Yes
+SUP0217,P109,Energy mix (seeds & fruit),Trail Mix,Primary,S013,Maipo Nuts Ltd.,5400,5.78,By Weight (kg),kg,2,Yes
+SUP0218,P109,Energy mix (seeds & fruit),Trail Mix,Backup,S019,San Fernando Dried Goods,5450,5.83,By Weight (kg),kg,3,Yes
+SUP0219,P110,Premium nut mix,Trail Mix,Primary,S013,Maipo Nuts Ltd.,9950,10.64,By Weight (kg),kg,5,Yes
+SUP0220,P110,Premium nut mix,Trail Mix,Backup,S019,San Fernando Dried Goods,11300,12.09,By Weight (kg),kg,2,Yes
+SUP0221,P111,"Student mix (peanut, raisin, choc)",Trail Mix,Primary,S013,Maipo Nuts Ltd.,4950,5.29,By Weight (kg),kg,0,Yes
+SUP0222,P111,"Student mix (peanut, raisin, choc)",Trail Mix,Backup,S019,San Fernando Dried Goods,5050,5.4,By Weight (kg),kg,10,Yes
+SUP0223,P112,Empty PET bottle 200ml (pack of 10),Packaging,Primary,S021,PackChile Wholesale,1000,1.07,By Unit/Package,pack 10,0,Yes
+SUP0224,P112,Empty PET bottle 200ml (pack of 10),Packaging,Backup,S022,Envases del Pacifico,1050,1.12,By Unit/Package,pack 10,2,Yes
+SUP0225,P113,Empty PET bottle 350ml (pack of 10),Packaging,Primary,S021,PackChile Wholesale,1350,1.44,By Unit/Package,pack 10,2,Yes
+SUP0226,P113,Empty PET bottle 350ml (pack of 10),Packaging,Backup,S022,Envases del Pacifico,1400,1.5,By Unit/Package,pack 10,2,Yes
+SUP0227,P114,Empty PET bottle 500ml (pack of 10),Packaging,Primary,S021,PackChile Wholesale,1650,1.76,By Unit/Package,pack 10,1,Yes
+SUP0228,P114,Empty PET bottle 500ml (pack of 10),Packaging,Backup,S022,Envases del Pacifico,1800,1.93,By Unit/Package,pack 10,3,Yes
+SUP0229,P115,Empty PET bottle 750ml (pack of 10),Packaging,Primary,S021,PackChile Wholesale,2050,2.19,By Unit/Package,pack 10,0,Yes
+SUP0230,P115,Empty PET bottle 750ml (pack of 10),Packaging,Backup,S022,Envases del Pacifico,2000,2.14,By Unit/Package,pack 10,10,Yes
+SUP0231,P116,Empty PET bottle 1L (pack of 10),Packaging,Primary,S021,PackChile Wholesale,2350,2.51,By Unit/Package,pack 10,1,Yes
+SUP0232,P116,Empty PET bottle 1L (pack of 10),Packaging,Backup,S022,Envases del Pacifico,2400,2.57,By Unit/Package,pack 10,7,Yes
+SUP0233,P117,Empty PET bottle 1.5L (pack of 10),Packaging,Primary,S021,PackChile Wholesale,3100,3.32,By Unit/Package,pack 10,3,Yes
+SUP0234,P117,Empty PET bottle 1.5L (pack of 10),Packaging,Backup,S022,Envases del Pacifico,3000,3.21,By Unit/Package,pack 10,5,Yes
+SUP0235,P118,Empty PET bottle 2L (pack of 10),Packaging,Primary,S021,PackChile Wholesale,3600,3.85,By Unit/Package,pack 10,1,Yes
+SUP0236,P118,Empty PET bottle 2L (pack of 10),Packaging,Backup,S022,Envases del Pacifico,3700,3.96,By Unit/Package,pack 10,7,Yes
+SUP0237,P119,Poly bag 10x15cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,650,0.7,By Unit/Package,pack 100,2,Yes
+SUP0238,P119,Poly bag 10x15cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,700,0.75,By Unit/Package,pack 100,5,Yes
+SUP0239,P120,Poly bag 12x20cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,950,1.02,By Unit/Package,pack 100,1,Yes
+SUP0240,P120,Poly bag 12x20cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,1100,1.18,By Unit/Package,pack 100,3,Yes
+SUP0241,P121,Poly bag 15x25cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,1300,1.39,By Unit/Package,pack 100,1,Yes
+SUP0242,P121,Poly bag 15x25cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,1400,1.5,By Unit/Package,pack 100,7,Yes
+SUP0243,P122,Poly bag 20x30cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,1750,1.87,By Unit/Package,pack 100,0,Yes
+SUP0244,P122,Poly bag 20x30cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,1700,1.82,By Unit/Package,pack 100,3,Yes
+SUP0245,P123,Poly bag 25x35cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,1950,2.09,By Unit/Package,pack 100,2,Yes
+SUP0246,P123,Poly bag 25x35cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,2200,2.35,By Unit/Package,pack 100,7,Yes
+SUP0247,P124,Poly bag 30x40cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,2550,2.73,By Unit/Package,pack 100,0,Yes
+SUP0248,P124,Poly bag 30x40cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,2650,2.83,By Unit/Package,pack 100,5,Yes
+SUP0249,P125,Poly bag 35x50cm (pack of 100),Packaging,Primary,S021,PackChile Wholesale,3300,3.53,By Unit/Package,pack 100,5,Yes
+SUP0250,P125,Poly bag 35x50cm (pack of 100),Packaging,Backup,S022,Envases del Pacifico,3350,3.58,By Unit/Package,pack 100,5,Yes
+SUP0251,P126,Zipper bag 12x18cm (pack of 50),Packaging,Primary,S021,PackChile Wholesale,1700,1.82,By Unit/Package,pack 50,3,Yes
+SUP0252,P126,Zipper bag 12x18cm (pack of 50),Packaging,Backup,S022,Envases del Pacifico,1800,1.93,By Unit/Package,pack 50,5,Yes
+SUP0253,P127,Zipper bag 18x25cm (pack of 50),Packaging,Primary,S021,PackChile Wholesale,2400,2.57,By Unit/Package,pack 50,2,Yes
+SUP0254,P127,Zipper bag 18x25cm (pack of 50),Packaging,Backup,S022,Envases del Pacifico,2400,2.57,By Unit/Package,pack 50,7,Yes
+SUP0255,P128,Vacuum bag 20x30cm (pack of 50),Packaging,Primary,S021,PackChile Wholesale,3050,3.26,By Unit/Package,pack 50,0,Yes
+SUP0256,P128,Vacuum bag 20x30cm (pack of 50),Packaging,Backup,S022,Envases del Pacifico,3200,3.42,By Unit/Package,pack 50,2,Yes
