@@ -9,20 +9,6 @@ Chilean fairs and wholesale suppliers (2025–2026), converted at 1 USD = 935 CL
 
 An end-to-end analytics project for a small artisanal/bulk-goods market stall: a 128-product catalog, a
 supply chain with **primary + backup suppliers** for every product, two years of simulated purchase and
-sell-through history (with real seasonality, summer-heat spoilage and holiday demand), and three layers of
-analysis on top of it — spreadsheet, Python, and SQL.
-
-# Market Stall Analytics — Portfolio Project
-
-**Portfolio note:** this project is a full English adaptation/translation of an original Spanish project
-built for a real family market-stall (*feria*) business. All supplier names, contacts and locations are
-**fictitious**, and all monetary amounts are **approximate** — grounded in real reference ranges from
-Chilean fairs and wholesale suppliers (2025–2026), converted at 1 USD = 935 CLP (observed rate).
-
-## What this is
-
-An end-to-end analytics project for a small artisanal/bulk-goods market stall: a 128-product catalog, a
-supply chain with **primary + backup suppliers** for every product, two years of simulated purchase and
 sell-through history (with real seasonality, summer-heat spoilage and holiday demand), and four layers of
 analysis on top of it — spreadsheet, Python, SQL, and (soon) published BI dashboards.
 
