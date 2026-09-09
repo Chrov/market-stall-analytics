@@ -1,3 +1,5 @@
+> **Revisión 2026-09-08:** Consulte [DECISION_REVIEW.md](DECISION_REVIEW.md). Las cifras siguientes son resultados de cohortes simuladas, con cierres hasta 2035. El payback y la reposición no están validados para operación real. / See the corrected decision review before using legacy results.
+
 # Assumptions & Methodology
 
 This project simulates two years of a market stall's operations. Every effort was made to ground the

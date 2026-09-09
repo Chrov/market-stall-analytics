@@ -1,0 +1,11 @@
+{
+  "batch_count": 3825,
+  "future_closures": 498,
+  "latest_close_date": "2035-06-28",
+  "cohort_revenue_clp": 412926945,
+  "closed_by_cutoff_revenue_clp": 366555045,
+  "cohort_gross_profit_clp": 103370195,
+  "waste_cost_clp": 8992168.0,
+  "waste_cost_rate": 0.02904852825855033,
+  "checks": "unique batch joins, matching product/order, quantity conservation, purchase cost and gross profit reconciliation passed"
+}

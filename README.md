@@ -1,92 +1,41 @@
-# Market Stall Analytics — Portfolio Project
+# Market Stall Analytics
 
-**Portfolio note:** this project is a full English adaptation/translation of an original Spanish project
-built for a real family market-stall (*feria*) business. All supplier names, contacts and locations are
-**fictitious**, and all monetary amounts are **approximate** — grounded in real reference ranges from
-Chilean fairs and wholesale suppliers (2025–2026), converted at 1 USD = 935 CLP (observed rate).
+**ES:** Control de merma y reposición para una feria con 128 productos y 22 proveedores. Caso simulado con Excel, SQL y Python, orientado a decidir dónde iniciar un piloto de mejora.
 
-## What this is
+**EN:** Waste and replenishment analysis for a market stall with 128 products and 22 suppliers. A synthetic Excel, SQL and Python case supporting the selection of an improvement pilot.
 
-An end-to-end analytics project for a small artisanal/bulk-goods market stall: a 128-product catalog, a
-supply chain with **primary + backup suppliers** for every product, two years of simulated purchase and
-sell-through history (with real seasonality, summer-heat spoilage and holiday demand), and four layers of
-analysis on top of it — spreadsheet, Python, SQL, and (soon) published BI dashboards.
+## Hallazgos revisados / Reviewed findings
 
-## Repository structure
+| Métrica de cohortes simuladas / Synthetic cohort metric | Resultado |
+|---|---:|
+| Lotes de compra / Purchase batches | 3,825 |
+| Costo de merma / Waste at acquisition cost | CLP 8,992,168 |
+| Merma / costo comprado — Waste / purchase cost | 2.90% |
+| Margen bruto agregado / Aggregate gross margin | 25.03% |
+| Cierres posteriores al corte / Closures after cutoff | 498 |
 
-```
-market-stall-analytics/
-├── README.md                    <- you are here
-├── ASSUMPTIONS.md               <- every non-obvious assumption, in one place
-├── PUBLISHING_ROADMAP.md        <- how this project is segmented across GitHub/Kaggle/Power BI/Tableau
-├── LICENSE
-├── data/                        <- raw source CSVs (products, suppliers, supply_links, purchases, batch_outcomes)
-├── analysis_export/             <- 7 clean, analysis-ready CSVs — the direct source for BI tools
-├── sql/                         <- market_stall.duckdb & market_stall.sqlite (the SQL export layer)
-├── notebooks/
-│   ├── Market_Stall_Analysis.ipynb   <- main analysis (Python)
-│   └── SQL_Analysis.ipynb            <- same KPIs, rebuilt as SQL (DuckDB, joins/CTEs/window functions)
-├── excel/
-│   └── Market_Stall_Management.xlsx  <- operational spreadsheet system (catalog, supply chain, dashboards)
-└── docs/
-    └── Process_Memoir.docx           <- the operational story behind the data
-```
+Las compras abarcan julio de 2023–junio de 2025, pero los cierres llegan hasta 2035. Los resultados completos son de cohortes, no ventas realizadas en dos años. El Excel separa cierres hasta el 30 de junio de 2025 y posteriores. La merma monetaria evita mezclar kg, frascos y paquetes.
 
-## Repository contents
+Purchases span July 2023–June 2025, but batch closures extend to 2035. Full outcomes represent purchase cohorts, not two-year realized sales. The workbook separates closures by the 2025-06-30 cutoff. Monetary waste avoids combining incompatible physical units.
 
-| File / folder | What it is |
-|---|---|
-| `excel/Market_Stall_Management.xlsx` | The operational spreadsheet system: catalog, suppliers, supply links, 2 years of purchases & outcomes, and two live dashboards (general + supply chain), all formula-driven. |
-| `notebooks/Market_Stall_Analysis.ipynb` | The main analysis notebook. Installs its own dependencies. Covers descriptive stats, profitability, ABC/Pareto, seasonality, supply-chain concentration (HHI), hypothesis testing, **freezer ROI**, **EOQ / reorder point / safety stock**, and a **demand forecast** with a walk-forward backtest. |
-| `notebooks/SQL_Analysis.ipynb` | The same core KPIs rewritten as SQL (DuckDB) — joins, CTEs, window functions (`RANK`, running `SUM() OVER`). |
-| `sql/market_stall.duckdb` / `sql/market_stall.sqlite` | The data persisted as real SQL databases (raw tables + materialized analytical tables), built via Python — the tangible "export to SQL" step. `.sqlite` is there for BI tools with a native SQLite connector (e.g. Power BI). |
-| `docs/Process_Memoir.docx` | The narrative behind the project: site diagnosis, the freezer, payment terminal, crate logistics, and supplier organization that this data model represents. |
-| `analysis_export/` | Seven flat CSVs, ready to load into a BI tool: `analysis_products`, `analysis_supply_links`, `analysis_purchases`, `analysis_batches`, `analysis_suppliers`, `analysis_monthly`, `analysis_inventory_optimization`. |
-| `ASSUMPTIONS.md` | Every non-obvious assumption behind the simulated data and the inventory-optimization formulas, in one place. |
-| `PUBLISHING_ROADMAP.md` | How this same project is deliberately segmented across GitHub, Kaggle, Power BI and Tableau Public, and in what order — with a table of which source table/field feeds which chart. |
+## Decisión / Decision
 
-## How to run it
+Priorizar un piloto en aceitunas, la categoría con mayor costo de merma (CLP 2,984,432). Medir ventas y pérdidas por SKU, registrar motivos y comparar períodos equivalentes. La inversión en congelación y las cantidades de reposición requieren datos adicionales. No hay ahorro real demostrado.
 
-```bash
-# Excel: open directly, no add-ins required (all formulas are Excel-standard, no XLOOKUP/FILTER)
+Prioritize an olives pilot, the largest category by waste cost (CLP 2,984,432). Capture dated SKU sales, loss reasons and comparable periods. Freezer investment and order quantities require further inputs. No realized savings are claimed.
 
-# Notebooks: each installs its own Python dependencies on first run
-jupyter execute notebooks/Market_Stall_Analysis.ipynb --output=notebooks/Market_Stall_Analysis.ipynb
-jupyter execute notebooks/SQL_Analysis.ipynb --output=notebooks/SQL_Analysis.ipynb
+Consulte [DECISION_REVIEW.md](DECISION_REVIEW.md) para definiciones, hipótesis y criterios de avance en ambos idiomas.
 
-# SQL databases: query directly, e.g.
-python3 -c "import duckdb; print(duckdb.connect('sql/market_stall.duckdb').sql('SELECT * FROM supplier_scorecard').df())"
-```
+## Excel y análisis / Workbook and analysis
 
-## Headline findings
+- [Market_Stall_Management.xlsx](excel/Market_Stall_Management.xlsx): catálogo, proveedores, compras, resultados, ocho gráficos y tabla dinámica nativa. `Decision` presenta el alcance y la recomendación; `Cohort_Pivot` permite explorar resultados por categoría y cierre.
+- `data/`: registros simulados originales conservados.
+- `analysis_export/reviewed_batch_cohorts.csv`: lotes enlazados y alcance temporal.
+- `analysis_export/reviewed_category_economics.csv`: rentabilidad y merma monetaria.
+- `analysis_export/review_metrics.json`: conciliaciones y métricas.
+- `notebooks/`: análisis Python y SQL anteriores, con advertencia de revisión.
+- `ASSUMPTIONS.md`: hipótesis de simulación. La conversión de 935 CLP/USD es ilustrativa.
 
-- **2-year revenue:** ~US$ 442,000 · **gross profit:** ~US$ 111,000 · **overall waste rate:** 3.4%.
-- **Freezer business case:** annualized waste in the two categories it targets (Olives, Grains/mote) is
-  ~US$ 3,460/year; across conservative-to-optimistic scenarios the freezer (~US$ 270–340) pays for itself
-  in roughly **1.2–2.4 months**.
-- **Supply chain:** every product has a documented backup supplier; the supplier base's HHI concentration
-  index is ~1,430 (low), and using a backup costs ~13% more on average — the price of resilience.
-- **Forecast:** a Holt-Winters model on 24 months of purchase volume backtests at ~5% MAPE one month
-  ahead — treated as a first pass, not a guarantee, given the short history.
+Para actualizar el análisis revisado, ejecutar `python scripts/review_projects.py` (pandas). En Excel, actualizar las tablas dinámicas después de cambiar datos. No usar los antiguos EOQ, payback o pronósticos de compras como política validada de demanda.
 
-## Live dashboards & other platforms
-
-Per `PUBLISHING_ROADMAP.md`, this project is deliberately split by audience: light EDA on Kaggle, deeper
-operational analysis in Power BI, and the revenue/trend story in Tableau Public. Links go here once each
-is published:
-
-- Kaggle dataset & notebooks: _link pending_
-- Power BI report (supply chain & inventory): _link pending_
-- Tableau Public dashboard (revenue, trend & forecast): _link pending_
-
-## What's next
-
-- Publish the three links above.
-- Extend the demand forecast per top-selling product instead of only at the total-catalog level, once more
-  months of history are available.
-- Replace the illustrative holding-cost/ordering-cost assumptions in the EOQ calculation with real figures
-  if the business starts tracking them.
-
-## Author
-
-Camilo Vergara Salas — Data Analyst / Analyst Programmer. [linkedin.com/in/camilo-evs](https://linkedin.com/in/camilo-evs) · [github.com/Chrov](https://github.com/Chrov)
+Run `python scripts/review_projects.py` to rebuild reviewed exports. Refresh PivotTables after editing Excel data. Legacy EOQ, payback and purchase forecasts are illustrative, not validated demand policies.
