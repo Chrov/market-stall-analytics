@@ -1,0 +1,35 @@
+table Monthly
+	column month
+		dataType: string
+		sourceColumn: month
+		summarizeBy: none
+
+	column Revenue_CLP
+		dataType: double
+		sourceColumn: Revenue_CLP
+		summarizeBy: sum
+
+	column BatchCost_CLP
+		dataType: double
+		sourceColumn: BatchCost_CLP
+		summarizeBy: sum
+
+	column WasteCost_CLP
+		dataType: double
+		sourceColumn: WasteCost_CLP
+		summarizeBy: sum
+
+	measure 'Revenue CLP' = SUM(Monthly[Revenue_CLP])
+		formatString: #,0
+
+	measure 'Waste rate' = DIVIDE(SUM(Monthly[WasteCost_CLP]),SUM(Monthly[BatchCost_CLP]))
+		formatString: 0.0%
+
+	partition Monthly = m
+		mode: import
+		source =
+			let
+			 Source = Csv.Document(Binary.FromText("bW9udGgsUmV2ZW51ZV9DTFAsQmF0Y2hDb3N0X0NMUCxXYXN0ZUNvc3RfQ0xQDQoyMDIzLTA3LDE4Njc2ODEwLDEzOTI0NDAwLDMyMzczNy41DQoyMDIzLTA4LDE4Njc2MDUwLDEzOTY5MjUwLDMxNTgyMC41DQoyMDIzLTA5LDIxMzc5Mzk1LDE1ODc3MzUwLDI4MDk5NC4wDQoyMDIzLTEwLDE1MDY5NjM1LDExMzAwMTUwLDM3OTM3Ny41DQoyMDIzLTExLDE0MTY5NDY1LDEwNTc0NTUwLDM4ODM2Ni4wDQoyMDIzLTEyLDE3NzQwNDEwLDEzMTc4NDUwLDMyNDg5My41DQoyMDI0LTAxLDE0NTM0NzUwLDExMDIzNDAwLDUxOTY2Ni4wDQoyMDI0LTAyLDEzNDc3OTY1LDEwNDEwNjUwLDY0OTg1NC4wDQoyMDI0LTAzLDE0MjY5NTMwLDEwNjYxMjAwLDM1NzEyMS41DQoyMDI0LTA0LDE4MjQ3ODAwLDEzNzA4MzUwLDMyODk5OC4wDQoyMDI0LTA1LDE5NzQxNzcwLDE0ODIwMTAwLDM2MTI2My4wDQoyMDI0LTA2LDE4ODAwMzQ1LDE0MjI1ODAwLDQwMjcwOS41DQoyMDI0LTA3LDE4MTk1Mzc1LDEzNzA0ODUwLDQwNjA4My4wDQoyMDI0LTA4LDE4MTE5MzQwLDEzNjcwODUwLDQxNDY1MS4wDQoyMDI0LTA5LDIxOTEyNDgwLDE2NDE2NzAwLDMxODQwMy41DQoyMDI0LTEwLDE0ODgyOTg1LDEwOTk3MzUwLDI1NzkzOC4wDQoyMDI0LTExLDE0NDQ1MTEwLDEwNzM0NjUwLDI5MjYxNi4wDQoyMDI0LTEyLDE5MDI2Mjc1LDE0MjAxMzUwLDQwMDY1NS4wDQoyMDI1LTAxLDE1MTU5MDEwLDExNDM5NjAwLDQ2Mzc4OS4wDQoyMDI1LTAyLDE0MzY4NDUwLDEwODQ0MjAwLDQzMjA1MC41DQoyMDI1LTAzLDE1NDk1MjQwLDExNjkxNTAwLDQ2MTQ0NS4wDQoyMDI1LTA0LDE4MTIyMDU1LDEzNTI1MzUwLDMxMzEyMy41DQoyMDI1LTA1LDE5NDEzOTU1LDE0NTAyMDAwLDMxOTQ2NS41DQoyMDI1LTA2LDE5MDAyNzQ1LDE0MTU0NzAwLDI3OTE0Ny4wDQo=",BinaryEncoding.Base64),[Delimiter=",",Columns=4,Encoding=65001,QuoteStyle=QuoteStyle.Csv]),
+			 Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+			 Typed = Table.TransformColumnTypes(Headers,{{"month",type text},{"Revenue_CLP",type number},{"BatchCost_CLP",type number},{"WasteCost_CLP",type number}})
+			in Typed

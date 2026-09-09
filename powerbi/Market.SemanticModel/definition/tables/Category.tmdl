@@ -1,0 +1,40 @@
+table Category
+	column category
+		dataType: string
+		sourceColumn: category
+		summarizeBy: none
+
+	column Revenue_CLP
+		dataType: double
+		sourceColumn: Revenue_CLP
+		summarizeBy: sum
+
+	column BatchCost_CLP
+		dataType: double
+		sourceColumn: BatchCost_CLP
+		summarizeBy: sum
+
+	column GrossProfit_CLP
+		dataType: double
+		sourceColumn: GrossProfit_CLP
+		summarizeBy: sum
+
+	column WasteCost_CLP
+		dataType: double
+		sourceColumn: WasteCost_CLP
+		summarizeBy: sum
+
+	measure 'Waste CLP' = SUM(Category[WasteCost_CLP])
+		formatString: #,0
+
+	measure 'Gross margin' = DIVIDE(SUM(Category[GrossProfit_CLP]),SUM(Category[Revenue_CLP]))
+		formatString: 0.0%
+
+	partition Category = m
+		mode: import
+		source =
+			let
+			 Source = Csv.Document(Binary.FromText("Y2F0ZWdvcnksUmV2ZW51ZV9DTFAsQmF0Y2hDb3N0X0NMUCxHcm9zc1Byb2ZpdF9DTFAsV2FzdGVDb3N0X0NMUA0KQ2FuZHksMTU3NTg2MzAsMTEwMjc5MDAsNDczMDczMCwxNjMzOTEuNQ0KQ2hpbGksMTczMDk5NjUsMTIzNDI4MDAsNDk2NzE2NSw4ODM3NC41DQpEcmllZCBGcnVpdCwyOTE2OTcwMCwyMTUxNzMwMCw3NjUyNDAwLDMxNTg2MS41DQpHcmFpbnMsMjI3NzkyOTUsMTg2MzE1NTAsNDE0Nzc0NSwxNzEwMzE0LjUNCkhvbmV5LDg4NTY1OTUsNjMyNjg1MCwyNTI5NzQ1LDU1Mjg0LjUNCk51dHMsMTI3OTEwODMwLDk4NDY5NjAwLDI5NDQxMjMwLDE5MTk3OTcuNQ0KT2xpdmVzLDc0NzI2MTQwLDU2NTAwNjAwLDE4MjI1NTQwLDI5ODQ0MzIuMA0KUGFja2FnaW5nLDEzOTUwMDAwLDkzNTg5NTAsNDU5MTA1MCwwLjANClBlYW51dHMsNTQyMzM1NjUsNDAwMTUzNTAsMTQyMTgyMTUsMTE0NjAyOC4wDQpQaWNrbGVzLDc0Nzk0MTUsNTMyNTY1MCwyMTUzNzY1LDYyNDIzLjUNClJhaXNpbnMsODYzMjU4MCw2Mzg5MTAwLDIyNDM0ODAsNTY2NzkuNQ0KU2Vhc29uaW5ncywxMDcwMzQ2NSw3NDUzNjAwLDMyNDk4NjUsMzEyMDguNQ0KU2VlZHMsNTA5MTU1NSwzNzQ2MjAwLDEzNDUzNTUsNzc0NDEuNQ0KVHJhaWwgTWl4LDE2MzI1MjEwLDEyNDUxMzAwLDM4NzM5MTAsMzgwOTMxLjANCg==",BinaryEncoding.Base64),[Delimiter=",",Columns=5,Encoding=65001,QuoteStyle=QuoteStyle.Csv]),
+			 Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+			 Typed = Table.TransformColumnTypes(Headers,{{"category",type text},{"Revenue_CLP",type number},{"BatchCost_CLP",type number},{"GrossProfit_CLP",type number},{"WasteCost_CLP",type number}})
+			in Typed

@@ -1,41 +1,39 @@
-# Market Stall Analytics
+# Control de merma y reposición / Waste and replenishment control
 
-**ES:** Control de merma y reposición para una feria con 128 productos y 22 proveedores. Caso simulado con Excel, SQL y Python, orientado a decidir dónde iniciar un piloto de mejora.
+**Camilo Vergara · Data Analyst · Caso de portafolio / Portfolio case**
 
-**EN:** Waste and replenishment analysis for a market stall with 128 products and 22 suppliers. A synthetic Excel, SQL and Python case supporting the selection of an improvement pilot.
+Priorizar un piloto de merma en aceitunas antes de aprobar inversión en frío o emitir órdenes automáticas. La categoría concentra CLP 2.984.432 de merma valorada al costo en las cohortes simuladas.
 
-## Hallazgos revisados / Reviewed findings
+Prioritize an olives waste pilot before approving cold-storage investment or automated orders. The category accounts for CLP 2,984,432 in simulated cohort waste at acquisition cost.
 
-| Métrica de cohortes simuladas / Synthetic cohort metric | Resultado |
+## Alcance / Scope
+
+128 productos, 22 proveedores y 3.825 lotes simulados. Compras de julio de 2023 a junio de 2025. Los cierres llegan hasta 2035; los resultados completos no son ventas realizadas en dos años.
+
+128 products, 22 suppliers and 3,825 synthetic batches. Purchases span July 2023 to June 2025. Closures extend to 2035; full cohort results are not two-year realized sales.
+
+| Indicador / Metric | Resultado / Result |
 |---|---:|
-| Lotes de compra / Purchase batches | 3,825 |
-| Costo de merma / Waste at acquisition cost | CLP 8,992,168 |
-| Merma / costo comprado — Waste / purchase cost | 2.90% |
-| Margen bruto agregado / Aggregate gross margin | 25.03% |
-| Cierres posteriores al corte / Closures after cutoff | 498 |
+| Merma al costo / Waste at cost | CLP 8,992,168 |
+| Merma sobre costo / Waste cost rate | 2.90% |
+| Margen bruto / Gross margin | 25.03% |
+| Cierres posteriores / Later closures | 498 |
 
-Las compras abarcan julio de 2023–junio de 2025, pero los cierres llegan hasta 2035. Los resultados completos son de cohortes, no ventas realizadas en dos años. El Excel separa cierres hasta el 30 de junio de 2025 y posteriores. La merma monetaria evita mezclar kg, frascos y paquetes.
+![Waste and replenishment control](reports/waste_priority.png)
 
-Purchases span July 2023–June 2025, but batch closures extend to 2035. Full outcomes represent purchase cohorts, not two-year realized sales. The workbook separates closures by the 2025-06-30 cutoff. Monetary waste avoids combining incompatible physical units.
+## Revisar el caso / Review the case
 
-## Decisión / Decision
+- [Informe ejecutivo bilingüe / Bilingual executive report](reports/Executive_Report.pdf)
+- [Decisión, método y límites / Decision, method and limitations](DECISION_REVIEW.md)
+- [Diccionario / Data dictionary](docs/DATA_DICTIONARY.md)
+- [Reproducción / Reproduction](REPRODUCIBILITY.md)
+- [Verificación / Verification](docs/VALIDATION.md)
+- [Excel: dashboard y tabla dinámica / dashboard and PivotTable](excel/Market_Stall_Management.xlsx)
+- [Memoria del proceso ES/EN / Process memoir](docs/Process_Memoir.docx)
+- [Power BI portable](reports/Market_PowerBI.zip)
 
-Priorizar un piloto en aceitunas, la categoría con mayor costo de merma (CLP 2,984,432). Medir ventas y pérdidas por SKU, registrar motivos y comparar períodos equivalentes. La inversión en congelación y las cantidades de reposición requieren datos adicionales. No hay ahorro real demostrado.
+## Interpretación / Interpretation
 
-Prioritize an olives pilot, the largest category by waste cost (CLP 2,984,432). Capture dated SKU sales, loss reasons and comparable periods. Freezer investment and order quantities require further inputs. No realized savings are claimed.
+Los datos son simulados y el stock es cualitativo. Las compras no son demanda observada. No se han demostrado ahorros reales, vida útil adicional ni beneficio de un congelador. La conversión USD a 935 CLP es ilustrativa.
 
-Consulte [DECISION_REVIEW.md](DECISION_REVIEW.md) para definiciones, hipótesis y criterios de avance en ambos idiomas.
-
-## Excel y análisis / Workbook and analysis
-
-- [Market_Stall_Management.xlsx](excel/Market_Stall_Management.xlsx): catálogo, proveedores, compras, resultados, ocho gráficos y tabla dinámica nativa. `Decision` presenta el alcance y la recomendación; `Cohort_Pivot` permite explorar resultados por categoría y cierre.
-- `data/`: registros simulados originales conservados.
-- `analysis_export/reviewed_batch_cohorts.csv`: lotes enlazados y alcance temporal.
-- `analysis_export/reviewed_category_economics.csv`: rentabilidad y merma monetaria.
-- `analysis_export/review_metrics.json`: conciliaciones y métricas.
-- `notebooks/`: análisis Python y SQL anteriores, con advertencia de revisión.
-- `ASSUMPTIONS.md`: hipótesis de simulación. La conversión de 935 CLP/USD es ilustrativa.
-
-Para actualizar el análisis revisado, ejecutar `python scripts/review_projects.py` (pandas). En Excel, actualizar las tablas dinámicas después de cambiar datos. No usar los antiguos EOQ, payback o pronósticos de compras como política validada de demanda.
-
-Run `python scripts/review_projects.py` to rebuild reviewed exports. Refresh PivotTables after editing Excel data. Legacy EOQ, payback and purchase forecasts are illustrative, not validated demand policies.
+Data are synthetic and stock is qualitative. Purchases are not observed demand. Realized savings, added shelf life and freezer benefits have not been demonstrated. The 935 CLP/USD conversion is illustrative.

@@ -1,25 +1,39 @@
-# Revisión de decisión / Decision review
+## Español
 
-## ES
+### Control de merma y reposición
 
-**Propósito:** priorizar reducción de merma y mejorar el control de reposición en un puesto de feria. Todos los datos son simulados. El análisis permite diseñar un piloto, sin atribuir ahorros reales a una empresa.
+Priorizar un piloto de merma en aceitunas antes de aprobar inversión en frío o emitir órdenes automáticas. La categoría concentra CLP 2.984.432 de merma valorada al costo en las cohortes simuladas.
 
-Se conservaron los 3.825 lotes originales: cantidades, costo y utilidad cuadran. El problema principal es temporal: 498 cierres ocurren después del 30 de junio de 2025 y llegan hasta 2035. Los CLP 412.926.945 corresponden al resultado completo de las cohortes compradas entre julio de 2023 y junio de 2025, no a ventas realizadas durante ese período. Los lotes cerrados hasta el corte suman CLP 366.555.045 de ingresos de lote; tampoco son ventas diarias porque no existen fechas de venta. No se inventaron fechas ni se eliminaron lotes para mejorar indicadores.
+128 productos, 22 proveedores y 3.825 lotes simulados. Compras de julio de 2023 a junio de 2025. Los cierres llegan hasta 2035; los resultados completos no son ventas realizadas en dos años.
 
-La merma valorada al costo de adquisición es CLP 8.992.168 (2,90% del costo comprado), sobre todas las cohortes. Permite agregar productos con unidades distintas. El antiguo 3,4% mezclaba kg, frascos y paquetes. El margen bruto agregado es 25,03%; el promedio del margen del catálogo no mide rentabilidad realizada. Ambos son resultados simulados de cohortes.
+### Método / Method
 
-**Decisión:** iniciar un piloto de control de merma en aceitunas (CLP 2.984.432 de costo de merma de cohortes, el mayor por categoría), seguido de frutos secos y granos. Registrar durante al menos un ciclo de reposición comparable: fecha de venta, SKU, unidad, cantidad, merma y motivo, inventario contado, entradas y costo. Comparar costo de merma por kg comprado, margen y faltantes con períodos equivalentes. El diseño debe controlar estacionalidad y mezcla de productos.
+Se enlazaron lotes por clave única y se conciliaron cantidades, costo y utilidad. La merma se agrega en CLP para evitar sumar kg, frascos y paquetes. El Excel separa cierres al 30 de junio de 2025 y posteriores, y conserva los registros originales.
 
-**Congelador:** no aprobar la compra con el antiguo payback. La fracción de merma evitable, aptitud de cada producto, electricidad, mantenimiento y capacidad no están observadas. Beneficio incremental mensual = costo de merma elegible evitado menos costos operativos adicionales. Payback = inversión / beneficio mensual positivo. Obtener cotizaciones gratuitas y medir el piloto antes de completar esos parámetros. El costo histórico de merma no es automáticamente ahorro recuperable.
+### Acción propuesta / Proposed action
 
-**Reposición:** High/Medium/Low es una alerta para contar inventario, no una orden. Faltan inventario numérico, tránsito, pedidos comprometidos, ventas diarias, vida útil remanente y restricciones de proveedor. Una política debe usar posición de inventario = disponible + tránsito − compromisos, y limitar compras por vida útil. El pronóstico de compras no valida demanda; EOQ y stock de seguridad derivados de compras siguen siendo ilustrativos.
+Registrar ventas diarias por SKU, merma y motivo, inventario contado y entradas. Comparar costo de merma por kg comprado y faltantes entre ciclos equivalentes. Cotizar y validar la aptitud de los productos antes de evaluar inversión, electricidad y mantenimiento.
 
-El tipo de cambio 935 CLP/USD es una hipótesis ilustrativa sin verificación como cotización observada. Priorizar CLP. Los análisis anteriores de notebooks y documentos deben leerse con estas correcciones; no constituyen evidencia de impacto realizado.
+### Límites / Limitations
 
-## EN
+Los datos son simulados y el stock es cualitativo. Las compras no son demanda observada. No se han demostrado ahorros reales, vida útil adicional ni beneficio de un congelador. La conversión USD a 935 CLP es ilustrativa.
 
-**Purpose:** prioritize waste reduction and improve replenishment control for a simulated market stall. All 3,825 source batches are retained and quantities, purchase costs and gross profit reconcile. There are 498 closures after 2025-06-30, extending to 2035. CLP 412,926,945 is full purchase-cohort revenue, not revenue earned within two years. Batches closed by the cutoff total CLP 366,555,045; these are batch outcomes, not dated daily sales.
+## English
 
-Acquisition-cost waste totals CLP 8,992,168, or 2.90% of purchase cost. This monetary denominator avoids adding kilograms, jars and packs. Aggregate gross margin is 25.03%. Prioritize an olives waste pilot (CLP 2,984,432 cohort waste cost), then nuts and grains. Capture dated sales, waste reasons, counted stock and receipts. Compare waste cost per kilogram purchased, gross margin and stockouts over comparable replenishment cycles, controlling seasonality and product mix.
+### Waste and replenishment control
 
-Do not approve freezer investment from the previous payback estimate. Establish product eligibility, incremental avoided waste, energy, maintenance and capacity first. Payback requires positive incremental monthly benefit. Qualitative stock labels only trigger physical counts. Replenishment quantities require inventory position, actual daily demand, shelf life and supplier constraints. Purchase forecasts are not demand validation. The 935 CLP/USD conversion is illustrative. Legacy notebooks and the memoir need this qualification; no realized business savings have been established.
+Prioritize an olives waste pilot before approving cold-storage investment or automated orders. The category accounts for CLP 2,984,432 in simulated cohort waste at acquisition cost.
+
+128 products, 22 suppliers and 3,825 synthetic batches. Purchases span July 2023 to June 2025. Closures extend to 2035; full cohort results are not two-year realized sales.
+
+### Método / Method
+
+Unique batch joins reconcile quantities, costs and gross profit. Waste is aggregated in CLP rather than combining kilograms, jars and packs. Excel separates closures at the June 30, 2025 cutoff and retains original records.
+
+### Acción propuesta / Proposed action
+
+Capture daily SKU sales, waste reasons, physical stock counts and receipts. Compare waste cost per kilogram purchased and stockouts over equivalent cycles. Obtain quotes and validate product suitability before assessing investment, energy and maintenance.
+
+### Límites / Limitations
+
+Data are synthetic and stock is qualitative. Purchases are not observed demand. Realized savings, added shelf life and freezer benefits have not been demonstrated. The 935 CLP/USD conversion is illustrative.
